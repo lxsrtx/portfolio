@@ -1,0 +1,730 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700");
+
+h1{
+    line-height: 1;
+    font-weight: 1;
+}
+
+.page-header {
+    text-align: center;
+    margin-top: 150px;
+    font-weight: 900;
+    color: #304252;
+}
+
+.page-header h1 {
+    font-size: 135px;
+    letter-spacing: 10px;
+    align-items: center;
+}
+
+
+
+.main_text{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10%;
+    font-family: Hoefler Text;
+    font-size: 180px;
+}
+
+.first_text{
+    display: flex;
+}
+
+.hh1{
+    text-align: left;
+}
+
+.hh2{
+    text-align: right;
+}
+
+.subtitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5%;
+}
+
+.subtitle p{
+    text-align: left;
+    font-size: 15px;
+    font-weight: 100;
+    color: #304252;
+    letter-spacing: 1px;
+}
+
+.who{
+    font-family: Hoefler Text;
+}
+
+.learn_more{
+    display: flex;
+    transition: color 0.3s ease, background-color 0.3s ease, border-radius 0.3s ease; /* Плавное изменение цвета при наведении */
+    width: 80px;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    font-family: Hoefler Text;
+    position: absolute;
+}
+
+.learn_more:hover{
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.learn_more a{
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.learn_more a:hover{
+    color: #304252;
+}
+
+.main_img img{
+    width: 100%;
+}
+
+.scroll-down {
+    margin-top: 200px;
+    font-size: 36px;
+}
+
+.hero-section {
+    background-color: #304252;
+    color: white;
+    padding: 100px 0;
+}
+
+.img_logo{
+    color: #fff;
+}
+
+.header {
+    background-color: #304352; /* Цвет фона шапки */
+    color: #fff; /* Цвет текста в шапке */
+    padding: 15px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Стили для логотипа */
+  .logo img {
+    max-width: 100px; /* Максимальная ширина логотипа */
+  }
+  
+  /* Стили для навигации */
+  .navigation-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .navigation-item {
+    margin-left: 20px; /* Расстояние между ссылками */
+  }
+  
+  .navigation-item:first-child {
+    margin-left: 0;
+  }
+  
+  .navigation-link {
+    color: #fff; /* Цвет ссылок */
+    text-decoration: none;
+    font-size: 20px;
+    transition: color 0.3s ease, background-color 0.3s ease, border-radius 0.3s ease; /* Плавное изменение цвета при наведении */
+    border-radius: 100px; /* Закругление углов */
+    padding: 10px 15px; /* Поля вокруг текста ссылки */
+  }
+  
+  .navigation-link:hover {
+    color: #304352; /* Цвет ссылки при наведении */
+    background-color: #fff; /* Цвет фона при наведении */
+  }
+
+
+
+.services-section {
+    text-align: center;
+    padding: 50px 0;
+}
+.services-section h2 {
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 30px;
+}
+.service {
+    font-size: 1.5rem;
+    color: #f0f0f0;
+}
+.portfolio-section {
+    padding: 50px 0;
+}
+.portfolio-section h2 {
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 30px;
+}
+.btn-custom {
+    background-color: #333;
+    color: #fff;
+    width: 100px;
+    border-radius: 1000%;
+    padding: 10px 20px;
+    border: none;
+    transition: background-color 0.5s;
+}
+.btn-custom:hover {
+    background-color: #555;
+}
+footer {
+    background-color: #111;
+    color: #bbb;
+    padding: 20px 0;
+    text-align: center;
+}
+.bg-body-tertiary {
+    background-color: #304252;
+    color: #304252;
+}
+
+.scrollText{
+    font-size: 200px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.scroll-container {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    font-size: 100px;
+    line-height: 1.5;
+}
+
+.scroll-text {
+    display: inline-block;
+    animation: scroll-text 20s linear infinite;
+    font-family: Hoefler Text;
+}
+
+@keyframes scroll-text {
+    0%{
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.number {
+    margin-right: 20px;
+}
+
+.line-animation {
+    position: relative;
+    flex-grow: 1;
+}
+
+.line {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    /* animation: growLine 2s forwards; */
+}
+/* 
+@keyframes growLine {
+    to {
+        width: 100%;
+    }
+} */
+
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper {
+    width: 100%;
+    height: 70%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+.branding-page {
+    height: 100%;
+    background: #304252;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+}
+
+.branding-text {
+    position: absolute;
+    bottom: -5%;
+    left: 50%;
+    color: white;
+    z-index: 10;
+}
+
+.branding-text h1{
+    transform: translateX(-109%) translateY(5%);
+    font-size: 150px;
+}
+
+.branding-image {
+    width: 100%;
+    max-width: 1000px;
+    height: 500px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+.text-container {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 75vh;
+    color: #304252;
+}
+
+.text-wrapper {
+    text-align: center;
+    letter-spacing: 15px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.work {
+    position: relative;
+    font-size: 13rem;
+    margin: 0;
+}
+
+p {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.hollow-circle {
+    border-radius: 50%;
+    border: 3px solid #304252;
+    background-color: transparent;
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    left: 25%;
+    transform: rotate(-20deg);
+    top: 60%;
+}
+
+.intro{
+    background-color: #304252
+}
+
+@media (max-width: 768px) {
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    p.lead {
+        font-size: 1rem;
+    }
+
+    p.text-secondary {
+        font-size: 0.8rem;
+    }
+}
+
+.about-text-introduction{
+    font-size: 30px;
+}
+
+.about-text-introduction p{
+    font-size: 18px;
+}
+
+.contact-section {
+    height: 100%;
+}
+
+.bg-light {
+    background: #EFEFEF linear-gradient(0deg, #ffffff00 0%, #324a5b 100%);
+    margin-top: 70px;
+    margin-bottom: 30px;
+    border-radius: 100px;
+    width: 1200px;
+    height: 670px;
+}
+
+.bg{
+    background: url("images/nextProject.jpg") center center / cover no-repeat;
+    border-radius: 30px;
+}
+
+.rounded{
+
+    border-radius: 100px;
+}
+
+h2 {
+    margin-top: 70px;
+    color: white;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.btn-outline-light {
+    border: 2px solid white;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 70px;
+    letter-spacing: 0.05em;
+}
+
+.btn-outline-light.px-5.py-3 {
+    padding: 1rem 3rem !important;
+}
+
+.btn-outline-light.rounded-circle {
+    border-radius: 50% !important;
+    width: 200px;
+    height: 200px;
+    line-height: 1.7;
+}
+
+.mainText_Vogue{
+    margin-top: 70px;
+    color: black;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.text_Discover{
+    font-size: 130px;
+    position: absolute;
+    top: 70%;
+    left: 39.5%;
+    transform: translate(-50%, -50%);
+    color: #9A0C0C;
+    z-index: 3;
+}
+
+.vogue_change{
+    position: relative;
+    transform: translate(0%, -3%);
+    z-index: 1;
+}
+
+.img_zIndex{
+    position: relative;
+    z-index: 2;
+}
+
+.vogue_hero{
+    padding: 20px;
+}
+
+.mine_height{
+    margin-top: 150px;
+}
+
+.vogue_text{
+    font-size: 12px;
+    line-height: 1.4;
+}
+
+.vogue_image{
+    height: 75%;
+}
+
+.card-footer{
+    background-color: #304252;
+}
+
+.asd{
+    margin: 120px 0;    
+}
+
+.arrow{
+    width: 80px;
+    height: 80px;
+    border: 2px solid #000;
+    border-radius: 50%;
+}
+
+.letswork{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.send_msg{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    /* background-color: red; */
+    transition: 0.5s; 
+
+}
+
+.send_msg::before{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-image: conic-gradient(
+        #fff 30deg, #fff 50deg, transparent 100deg
+    );
+    animation: animate 3s linear infinite; 
+    transition: 0.5s; 
+
+}
+
+@keyframes animate {
+    0%{
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
+.send_msg::after{
+    position: absolute;
+    display: flex;
+    content: 'Let`s Talk ';
+    justify-content: center;
+    align-items: center;
+    width: 190px;
+    height: 190px;
+    background: #EFEFEF linear-gradient(0deg, #ffffff00 0%, #768a98 100%);;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #fff;
+    /* transition: color 0.15s ease, background-image 0.3s ease, border-radius 0.3s ease;  */
+    transition: 0.5s; 
+
+}
+
+.send_msg:hover::after, .send_msg:hover{
+    background: #fff;
+    color: #304252;
+    cursor: pointer;
+    transition: 0.5s; 
+    width: 200px;
+    height: 200px;
+}
+
+h2{
+    font-weight: 300;
+}
+
+.span1{
+    font-family: Hoefler Text;
+}
+
+.radio{
+    display: none;
+}
+
+.projects{
+    position: relative;
+    max-width: 1000px;
+    max-height: 500px;
+    margin: 5% auto;
+}
+
+.p_slide{
+    width: 100%;
+    position: absolute;
+    height: 0;
+    padding-top: 30%;
+    overflow: hidden;
+    border-radius: 50px;
+
+}
+
+.slide_img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    border-radius: 50px;
+
+}
+
+.slide_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1.1);
+    transition: 1.3s;
+    border-radius: 50px;
+
+}
+
+.caption{
+    position: absolute;
+    width: 100%;
+    left: 5%;
+    top: 5%;
+    color: red;
+}
+
+.caption span{
+    display: block;
+    text-transform: initial;
+    font-size: 80px;
+    font-family: Hoefler Text;
+} 
+
+.main_name{
+    display: block;
+    text-transform: initial;
+    font-size: 100px;
+    
+}
+
+.dots{
+    width: 100%;
+    position: absolute;
+    bottom: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dots label{
+    width: 15px;
+    height: 15px;
+    background: #fff;
+    margin: 0 10px;
+    border-radius: 50%;
+    opacity: 0.6;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.dots label:hover{
+    opacity: 1;
+}
+
+#radio-1:checked ~ #slide-1,
+#radio-2:checked ~ #slide-2,
+#radio-3:checked ~ #slide-3{
+    opacity: 1;
+}
+
+
+#radio-1:checked ~ #slide-1 img,
+#radio-2:checked ~ #slide-2 img,
+#radio-3:checked ~ #slide-3 img{
+    transform: scale(1);
+}
+
+#radio-1:checked ~ #slide-1 .caption,
+#radio-2:checked ~ #slide-2 .caption,
+#radio-3:checked ~ #slide-3 .caption{
+    opacity: 1;
+    top: 75%;
+    font-size: 20px;
+}
+
+
+footer {
+    background-color: #f0f0f0;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-link a {
+    text-decoration: none;
+    color: #333; /* Цвет ссылки слева */
+}
+
+.right-links a {
+    text-decoration: none;
+    color: #333; /* Цвет ссылок справа */
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.right-links a:hover {
+    background-color: #007bff; /* Синий фон при наведении */
+    color: #ff0000; /* Красный текст при наведении */
+}
+
+
+
+@media screen and (min-width: 1400px) {
+    .subtitle p{
+        font-size: 10px;
+    }
+}
+
