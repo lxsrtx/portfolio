@@ -25,6 +25,7 @@ h1{
 
 
 
+
 .main_text{
     display: block;
     justify-content: center;
@@ -117,6 +118,12 @@ h1{
     padding: 100px 0;
 }
 
+.hero-section_p {
+    background-color: #304252;
+    color: white;
+    padding: 150px 0;
+}
+
 .img_logo{
     color: #fff;
 }
@@ -128,8 +135,20 @@ h1{
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
-  
+}
+ 
+.header_p {
+    position: relative;
+    z-index: 100;
+    background-color: #304352; /* Цвет фона шапки */
+    color: #fff; /* Цвет текста в шапке */
+    padding: 15px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+}
+
   /* Стили для логотипа */
   .logo img {
     max-width: 100px; /* Максимальная ширина логотипа */
@@ -376,12 +395,9 @@ body {
 
 
 
-
-
-
-
 .text-container {
     display: flex;
+    /* flex-direction: column; */
     justify-content: start;
     align-items: center;
     height: 75vh;
@@ -399,13 +415,13 @@ body {
 }
 
 h1 {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     margin: 0;
 }
 
 .work {
     position: relative;
-    font-size: 13rem;
+    font-size: 10rem;
     margin: 0;
 }
 
@@ -545,8 +561,8 @@ h2 {
     margin-top: 150px;
 }
 
-.vogue_text{
-    font-size: 12px;
+.vogue_text, .vogue_title{
+    font-size: 18px;
     line-height: 1.4;
 }
 
@@ -560,6 +576,10 @@ h2 {
 
 .asd{
     margin: 80px 0 0 0;    
+}
+
+.asdd{
+    display: none;
 }
 
 .arrow{
@@ -748,6 +768,24 @@ footer {
 } */
 
 
+.transparent-box {
+    
+	background-color: rgba(255, 255, 255, 0.7);
+	border-radius: 10px;
+	padding: 20px;
+    margin: 40px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+.contact-heading {
+	font-size: 32px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.contact-info {
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
 
 .send_msgg{
     position: relative;
@@ -821,29 +859,31 @@ footer {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin-top: 100px;
 }
 
 .cardd{
     width: 800px;
-    background-color: #f0f0f0;
+    background-color: transparent;
     border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+    /* overflow: hidden; */
+    /* box-shadow: 0px 2px 4px rgba(0,0,0,0.2); */
     margin: 20px;
     position: relative;
+    cursor: pointer;
 }
 
 .cardd img{
     width: 100%;
     height: 500px;
     display: block;
-    margin: auto;    
+    margin: auto;  
+    border-radius: 50px;  
 }
 
 .card_body{
     /* padding: 15px;
     color: #304252; */
+    border-radius: 50px;  
     width: 100%;
     height: 500px;
     top: 0;
@@ -863,7 +903,9 @@ footer {
 }
 
 .card_bodyy p{
-    color: #304252;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #fff;
     padding: 1rem;
 }
 
@@ -881,30 +923,148 @@ footer {
 }
 
 .card_title{
+    position: absolute;
+    bottom: 5%;
+    left: -15%;
     color: #fff;
-    font-size: 4rem;
+    font-size: 5rem;
+    z-index: 100;
 }
 
-@media screen and (max-width: 800px) {
-    .cardd{
-        width: 400px;
-    }
-    .cardd img{
-        width: 100%;
-        height: 250px;
-        display: block;
-        margin: auto;    
-    }
-    .card_body{
-        height: 250px;
-    }
-    .card_title{
-        font-size: 2rem;
-    }
+.more_projects{
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
+
+.more_projects a{
+    width: 150px;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    padding: 10px 15px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+
+    transition: .3s;
+}
+
+.more_projects a:hover{
+    background-color: #fff;
+    color: #304252;
+}
+
+.intro_block{
+    background-color: #304252;
+}
+
+.introduction{
+    display: flex;
+    justify-content: space-between;
+    font-family: Hoefler Text;
+    color: #fff;
+    padding: 100px 100px 0 100px;
+}
+
+.introduction_title h1{
+    font-size: 2rem;
+}
+
+.intro_text{
+    width: 50%;
+}
+
+.text_intro{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 100;
+    margin-bottom: 2rem;
+}
+
+.skills{
+    padding: 100px;
+}
+
+
+.soft_skills{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    margin-bottom: 100px;
+    font-family: Hoefler Text;
+    letter-spacing: 1.5px;
+}
+
+.apps{
+    display: flex;
+}
+
+.apps_img{
+    margin-right: 3%;
+    width: 100px;
+}
+
+.apps_img img{
+    width: 70px;
+}
+
+
+.strategy{
+    display: flex;
+    justify-content: space-around;
+}
+
+.str_text{
+    width: 80%;
+}
+
+.str_text h1{
+    font-family: Hoefler Text;
+    line-height: 1.5rem;
+    padding: 0 0 20px 0;
+}
+
+.str_text p{
+    font-size: 1rem;
+    padding: 0 0 7% 0;
+}
+
+.str_img img{
+    width: 450px;
+}
+
+
+
+
 
 .subtitle_v{
     display: none;
+}
+
+.about_me_a{
+    display: flex;
+    justify-content: space-around;
+    margin: 100px;
+}
+
+
+.vog_img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.vog_image{
+    padding: 20px 0;
+}
+
+.vog_image img{
+    width: 300px;
 }
 
 @media screen and (max-width: 1400px) {    
@@ -915,6 +1075,7 @@ footer {
         color: #304252;
         letter-spacing: 1px;
     }
+
 }
 
 @media screen and (max-width: 1300px) {
@@ -1046,6 +1207,10 @@ footer {
         top: 60%;
     }
 
+    /* .str_img img{
+        width: 300px;
+        height: auto; */
+
 }
 
 @media screen and (max-width: 1095px) {
@@ -1069,4 +1234,147 @@ footer {
     .who{
         font-size: 15px;
     }
+
+
+    .soft_skills{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        color: #fff;
+        margin-bottom: 100px;
+        font-family: Hoefler Text;
+        letter-spacing: 1.5px;
+        text-align: center;
+    }
+
+
+    .introduction{
+        /* display: flex; */
+        flex-direction: column;
+        text-align: center;
+        font-family: Hoefler Text;
+        color: #fff;
+        width: 100%;
+        padding: 100px 100px 0 100px;
+    }
+
+    .intro_text{
+        width: 100%;
+    }
+
+    .text_Discover{
+        font-size: 100px;
+        position: absolute;
+        top: 40%;
+        left: 39.5%;
+        transform: translate(-50%, -50%);
+        color: #9A0C0C;
+        z-index: 3;
+        /* font-weight: 300; */
+    }
+
+    .skills {
+        padding: 0px;
+    }
+
+
+
+    .strategy{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column-reverse;
+        
+    }
+    
+    .str_text{
+        width: 80%;
+    }
+    
+    .str_text h1{
+        font-family: Hoefler Text;
+        line-height: 1.5rem;
+        padding: 0 0 20px 0;
+    }
+    
+    .str_text p{
+        font-size: 1.5rem;
+        padding: 0 0 7% 0;
+    }
+    
+    .str_img img{
+        width: 450px;
+        padding: 30px 0;
+    }
+
+}
+
+
+@media screen and (max-width: 800px) {
+    .cardd{
+        width: 400px;
+    }
+    .cardd img{
+        width: 100%;
+        height: 250px;
+        display: block;
+        margin: auto;    
+    }
+    .card_body{
+        height: 250px;
+    }
+    .card_title{
+        font-size: 2rem;
+    }
+
+
+
+
+
+}
+
+@media screen and (max-width: 615px) {
+    .page-header h1{
+        font-size: 30px;
+    }
+    .subtitle_v p{
+        font-size: 1rem;
+    }
+    .asd{
+        display: none;
+    }
+    .asdd{
+        display: block;
+    }
+
+
+    .card_title{
+        bottom: 5%;
+        left: 5%;
+        color: #fff;
+        font-size: 5rem;
+        z-index: 100;
+    }    
+
+    .card_title{
+        font-size: 2rem;
+    }
+
+
+    .scroll-down {
+        margin-top: 50px;
+    }
+
+
+    .text_Discover{
+        font-size: 80px;
+        position: absolute;
+        top: 0%;
+        left: 39.5%;
+        transform: translate(-50%, -50%);
+        color: #9A0C0C;
+        z-index: 3;
+        /* font-weight: 300; */
+    }
+
 }
