@@ -28,7 +28,13 @@
             <li class="navigation-item"><a href="./contacts.html" class="navigation-link">CONTACTS</a></li>
           </ul>
         </nav>
+        <div class="burger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
     </header>
+
     <div class="page-header">
         <div class="main_text">
             <div class="first_text">
@@ -56,48 +62,6 @@
 </div>
 
 <div class="hero-section" id="hero-section">
-    <!-- <div class="container">
-        <div class="row">
-            <div class="col">
-                <div class="d-flex who">
-                    ENJOYING A MINIMALISTIC <br> STYLE WHILE INCORPORATING MORE <br> COLOURS IS A PERSONAL TOUCH I BRING TO MY DESIGNS
-                </div>
-            </div>
-            <div class="col">
-                <div class="d-flex justify-content-center main_img">
-                    <div class="d-flex align-items-end flex-column mb-3 image-cropper" style="max-height: 500px;">
-                        <img src="images/DSC_0125.jpg" alt="Graphic Designer" class="img-fluid" style="max-width: 400px; border-radius: 70px;">
-                    </div>
-                </div>
-            </div>
-            <div class="col d-flex align-items-center justify-content-center ">
-                <a href="about.html" class="learn_more">Learn More</a>
-            </div>
-        </div>
-    </div> -->
-
-    <!-- <div class="container"> -->
-        <!-- <div class="line-animation" style="margin-top: 10%;">
-            <div class="d-flex align-items-start flex-column mb-3">
-                <div class="mb-auto">
-                    <div class="line"></div>
-                </div>
-            </div>
-        </div> -->
-        <!-- <div class="row">
-            <div class="col">
-                <div class="p-2">
-                    <span class="me-auto p-2 number span1">01</span>
-                </div>
-            </div>
-            <div class="col">
-                <div class="d-flex flex-row mb-3">
-                    <div class="p-2 ms-5 span1">PROJECTS</div>
-                </div>
-            </div>
-            <div class="col"></div>
-        </div> -->
-    <!-- </div> -->
     <div class="container_card">
         <div class="cardd" id="cocoon">
             <img src="./images/index_carousel_1.jpg" style="width: 100%;">
@@ -158,18 +122,70 @@
     </div>
 
 </div>
-
-<div class="container">
-    <div class="d-flex pb-5 text-white">
-      <div class="p-2 flex-grow-1" style="color: #000;">CONNECT WITH ME</div>
-      <div class="p-2 me-5"  style="color: #000; cursor: pointer;">INSTAGRAM</div>
-      <div class="p-2 me-5"  style="color: #000; cursor: pointer;">LINKEDIN</div>
-      <div class="p-2"  style="color: #000; cursor: pointer;">BEHANCE</div>
+<footer class="footer">
+    <div class="left-content">
+        <p>CONNECT WITH ME</p>
     </div>
-  </div>
+    <div class="right-content">
+        <a href="#">INSTAGRAM</a>
+        <a href="#">LINKEDIN</a>
+        <a href="#">BEHANCE</a>
+    </div>
+</footer>
+
+<style>
+    .footer {
+        color: #000;
+        padding: 10px 100px;
+        background-color: transparent;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        font-family: Hoefler Text;
+    }
+
+    .left-content p {
+        font-size: 1rem;
+        margin: 0;
+    }
+
+    .right-content a {
+        text-decoration: none;
+        color: #000;
+        margin-left: 20px; /* Отступ между ссылками */
+    }
+
+
+    @media screen and (max-width: 768px) {
+        .footer {
+            flex-direction: column;
+        }
+
+        .right-content {
+            margin-top: 10px; /* Отступ между контентом слева и справа на мобильных устройствах */
+        }
+
+        .right-content a {
+            display: flex;
+            width: 100%;
+            text-align: center;
+            justify-content: center;
+            margin-left: 0;
+            margin-top: 5px; /* Отступ между ссылками на мобильных устройствах */
+        }
+        .navigation-list{
+            flex-direction: column;
+        }
+    }
+</style>
+
 
 
 <script>
+
+
+
     document.addEventListener("DOMContentLoaded", function() {
     var myDiv = document.getElementById("myDiv");
     myDiv.addEventListener("click", function() {
@@ -204,6 +220,15 @@
         window.location.href = "ivy.html";
     });
     });
+
+    const burger = document.querySelector(".burger");
+    const navMenu = document.querySelector(".navigation");
+
+    burger.addEventListener("click", () => {
+        burger.classList.toggle("active");
+        navMenu.classList.toggle("active");
+    })
+
 
 </script>
 

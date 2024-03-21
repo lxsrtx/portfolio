@@ -15,22 +15,24 @@
 
 
 <!-- &#x2193; -->
-<div  style="height: 0;" >
-    <header class="header_p">
-        <div class="logo" id="myLogo">
-            <img src="./css/logo/main_logo.svg" class="img_logo" width="60">
-        </div>
-        <nav class="navigation">
-            <ul class="navigation-list">
-                <li class="navigation-item"><a href="./index.html" class="navigation-link">HOME</a></li>
-                <li class="navigation-item"><a href="./projects.html" class="navigation-link">PROJECTS</a></li>
-                <li class="navigation-item"><a href="./about.html" class="navigation-link">ABOUT</a></li>
-                <li class="navigation-item"><a href="./contacts.html" class="navigation-link">CONTACTS</a></li>
-              </ul>
-        </nav>
-    </header>
-</div>
-
+<header class="header">
+    <div class="logo" id="myLogo">
+        <img src="./css/logo/main_logo.svg" class="img_logo" width="60">
+    </div>
+    <nav class="navigation">
+      <ul class="navigation-list">
+        <li class="navigation-item"><a href="./index.html" class="navigation-link">HOME</a></li>
+        <li class="navigation-item"><a href="./projects.html" class="navigation-link">PROJECTS</a></li>
+        <li class="navigation-item"><a href="./about.html" class="navigation-link">ABOUT</a></li>
+        <li class="navigation-item"><a href="./contacts.html" class="navigation-link">CONTACTS</a></li>
+      </ul>
+    </nav>
+    <div class="burger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </div>
+</header>
 <div class="hero-section_p" id="hero-section">
 
     <div class="container_card">
@@ -110,16 +112,70 @@
 
 </div>
 
-<div class="container">
-    <div class="d-flex pb-5 text-white">
-      <div class="p-2 flex-grow-1" style="color: #000;">CONNECT WITH ME</div>
-      <div class="p-2 me-5"  style="color: #000; cursor: pointer;">INSTAGRAM</div>
-      <div class="p-2 me-5"  style="color: #000; cursor: pointer;">LINKEDIN</div>
-      <div class="p-2"  style="color: #000; cursor: pointer;">BEHANCE</div>
+<footer class="footer">
+    <div class="left-content">
+        <p>CONNECT WITH ME</p>
     </div>
-</div>
+    <div class="right-content">
+        <a href="#">INSTAGRAM</a>
+        <a href="#">LINKEDIN</a>
+        <a href="#">BEHANCE</a>
+    </div>
+</footer>
+
+<style>
+    .footer {
+        color: #000;
+        padding: 10px 100px;
+        background-color: transparent;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        font-family: Hoefler Text;
+    }
+
+    .left-content p {
+        font-size: 1rem;
+        margin: 0;
+    }
+
+    .right-content a {
+        text-decoration: none;
+        color: #000;
+        margin-left: 20px; /* Отступ между ссылками */
+    }
+
+
+    @media screen and (max-width: 768px) {
+        .footer {
+            flex-direction: column;
+        }
+
+        .right-content {
+            margin-top: 10px; /* Отступ между контентом слева и справа на мобильных устройствах */
+        }
+
+        .right-content a {
+            display: flex;
+            width: 100%;
+            text-align: center;
+            justify-content: center;
+            margin-left: 0;
+            margin-top: 5px; /* Отступ между ссылками на мобильных устройствах */
+        }
+        .navigation-list{
+            flex-direction: column;
+        }
+    }
+</style>
+
+
 
 <script>
+
+
+
     document.addEventListener("DOMContentLoaded", function() {
     var myDiv = document.getElementById("myDiv");
     myDiv.addEventListener("click", function() {
@@ -155,19 +211,14 @@
     });
     });
 
-    document.addEventListener("DOMContentLoaded", function() {
-    var myDiv = document.getElementById("pr1");
-    myDiv.addEventListener("click", function() {
-        window.location.href = "pr1.html";
-    });
-    });
+    const burger = document.querySelector(".burger");
+    const navMenu = document.querySelector(".navigation");
 
-    document.addEventListener("DOMContentLoaded", function() {
-    var myDiv = document.getElementById("pr2");
-    myDiv.addEventListener("click", function() {
-        window.location.href = "pr2.html";
-    });
-    });
+    burger.addEventListener("click", () => {
+        burger.classList.toggle("active");
+        navMenu.classList.toggle("active");
+    })
+
 
 </script>
 

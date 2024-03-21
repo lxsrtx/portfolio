@@ -20,6 +20,11 @@
         <li class="navigation-item"><a href="./contacts.html" class="navigation-link">CONTACTS</a></li>
       </ul>
     </nav>
+    <div class="burger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </div>
 </header>
 <div class="container">
 
@@ -341,27 +346,70 @@
 </div>
 
 
-<div class="card-footer">
-
-  <div class="contact-section d-flex justify-content-center align-items-center m-5 last_f ">
-    <div class="text-center bg-light  shadow p-5 bg addd">
-      <h2 class="mb-4 txt_h">IVY&ROSE</h2>
-      <button class="btn btn-outline-light rounded-circle">View Project</button>
-    </div>
-  </div> 
-
-  <div class="container">
-    <div class="d-flex pb-5 text-white">
-      <div class="p-2 flex-grow-1"  style="color: #fff; cursor: pointer;">CONNECT WITH ME</div>
-      <div class="p-2 me-5" style="color: #fff; cursor: pointer;">INSTAGRAM</div>
-      <div class="p-2 me-5" style="color: #fff; cursor: pointer;">LINKEDIN</div>
-      <div class="p-2" style="color: #fff; cursor: pointer;">BEHANCE</div>
-    </div>
+<footer class="footer">
+  <div class="left-content">
+      <p>CONNECT WITH ME</p>
   </div>
-</div>
+  <div class="right-content">
+      <a href="#">INSTAGRAM</a>
+      <a href="#">LINKEDIN</a>
+      <a href="#">BEHANCE</a>
+  </div>
+</footer>
+
+<style>
+  .footer {
+      color: #000;
+      padding: 10px 100px;
+      background-color: transparent;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      font-family: Hoefler Text;
+  }
+
+  .left-content p {
+      font-size: 1rem;
+      margin: 0;
+  }
+
+  .right-content a {
+      text-decoration: none;
+      color: #000;
+      margin-left: 20px; /* Отступ между ссылками */
+  }
+
+
+  @media screen and (max-width: 768px) {
+      .footer {
+          flex-direction: column;
+      }
+
+      .right-content {
+          margin-top: 10px; /* Отступ между контентом слева и справа на мобильных устройствах */
+      }
+
+      .right-content a {
+          display: flex;
+          width: 100%;
+          text-align: center;
+          justify-content: center;
+          margin-left: 0;
+          margin-top: 5px; /* Отступ между ссылками на мобильных устройствах */
+      }
+      .navigation-list{
+          flex-direction: column;
+      }
+  }
+</style>
+
 
 
 <script>
+
+
+
   document.addEventListener("DOMContentLoaded", function() {
   var myDiv = document.getElementById("myDiv");
   myDiv.addEventListener("click", function() {
@@ -375,6 +423,36 @@
       window.location.href = "index.html";
   });
   });
+
+  document.addEventListener("DOMContentLoaded", function() {
+  var myDiv = document.getElementById("cocoon");
+  myDiv.addEventListener("click", function() {
+      window.location.href = "cocoon.html";
+  });
+  });
+
+  document.addEventListener("DOMContentLoaded", function() {
+  var myDiv = document.getElementById("vogue");
+  myDiv.addEventListener("click", function() {
+      window.location.href = "vogue.html";
+  });
+  });
+
+  document.addEventListener("DOMContentLoaded", function() {
+  var myDiv = document.getElementById("ivy");
+  myDiv.addEventListener("click", function() {
+      window.location.href = "ivy.html";
+  });
+  });
+
+  const burger = document.querySelector(".burger");
+  const navMenu = document.querySelector(".navigation");
+
+  burger.addEventListener("click", () => {
+      burger.classList.toggle("active");
+      navMenu.classList.toggle("active");
+  })
+
 
 </script>
 

@@ -166,9 +166,9 @@ h1{
     margin-left: 20px; /* Расстояние между ссылками */
   }
   
-  .navigation-item:first-child {
+  /* .navigation-item:first-child {
     margin-left: 0;
-  }
+  } */
   
   .navigation-link {
     color: #fff; /* Цвет ссылок */
@@ -251,6 +251,7 @@ footer {
     display: inline-block;
     animation: scroll-text 20s linear infinite;
     font-family: Hoefler Text;
+    color: #304252;
 }
 
 @keyframes scroll-text {
@@ -397,11 +398,11 @@ body {
 
 .text-container {
     display: flex;
-    /* flex-direction: column; */
     justify-content: start;
     align-items: center;
-    height: 75vh;
+    /* height: 75vh; */
     color: #304252;
+    /* margin-top: 25%; */
 }
 
 .text-wrapper {
@@ -438,28 +439,22 @@ p {
     width: 400px;
     height: 200px;
     position: absolute;
-    right: -5%;
+    right: 0%;
     transform: rotate(-20deg);
-    top: 60%;
+    bottom: 9%;
 }
 
 .intro{
     background-color: #304252
 }
 
-@media (max-width: 768px) {
-    h2 {
-        font-size: 1.5rem;
-    }
 
-    p.lead {
-        font-size: 1rem;
-    }
-
-    p.text-secondary {
-        font-size: 0.8rem;
-    }
+.zxcv{
+    letter-spacing: 1px;
+    margin: 0 14%;
 }
+
+
 
 .about-text-introduction{
     font-size: 30px;
@@ -469,9 +464,9 @@ p {
     font-size: 18px;
 }
 
-.contact-section {
+/* .contact-section {
     height: 100%;
-}
+} */
 
 .bg-light {
     background: #EFEFEF linear-gradient(0deg, #ffffff00 0%, #324a5b 100%);
@@ -959,6 +954,7 @@ footer {
 
 .intro_block{
     background-color: #304252;
+    padding-bottom: 5%;
 }
 
 .introduction{
@@ -971,6 +967,7 @@ footer {
 
 .introduction_title h1{
     font-size: 2rem;
+    margin-bottom: 10px;
 }
 
 .intro_text{
@@ -1049,7 +1046,8 @@ footer {
 .about_me_a{
     display: flex;
     justify-content: space-around;
-    margin: 100px;
+    margin: 100px 100px 0 100px;
+    align-items: center;
 }
 
 
@@ -1067,6 +1065,11 @@ footer {
     width: 300px;
 }
 
+
+
+
+
+
 @media screen and (max-width: 1400px) {    
     .subtitle p{
         text-align: left;
@@ -1075,6 +1078,8 @@ footer {
         color: #304252;
         letter-spacing: 1px;
     }
+
+
 
 }
 
@@ -1096,13 +1101,6 @@ footer {
 
 
 
-    .text-container {
-        display: flex;
-        justify-content: start;
-        align-items: center;
-        height: 75vh;
-        color: #304252;
-    }
     
     .text-wrapper {
         text-align: center;
@@ -1160,13 +1158,7 @@ footer {
     }
 
 
-    .text-container {
-        display: flex;
-        justify-content: start;
-        align-items: center;
-        height: 75vh;
-        color: #304252;
-    }
+
     
     .text-wrapper {
         text-align: center;
@@ -1179,10 +1171,14 @@ footer {
     }
     
     h1 {
-        font-size: 2rem;
+        /* font-size: 1.5rem; */
         margin: 0;
     }
     
+    .hollow-circle{
+        display: none;
+    }
+
     .work {
         position: relative;
         font-size: 4rem;
@@ -1237,26 +1233,15 @@ footer {
 
 
     .soft_skills{
-        display: flex;
         flex-direction: column;
-        width: 100%;
-        align-items: center;
-        color: #fff;
-        margin-bottom: 100px;
-        font-family: Hoefler Text;
-        letter-spacing: 1.5px;
-        text-align: center;
+        margin-bottom: 50px;
     }
-
 
     .introduction{
         /* display: flex; */
         flex-direction: column;
         text-align: center;
-        font-family: Hoefler Text;
-        color: #fff;
-        width: 100%;
-        padding: 100px 100px 0 100px;
+
     }
 
     .intro_text{
@@ -1307,10 +1292,71 @@ footer {
         padding: 30px 0;
     }
 
+    .zxcv{
+        letter-spacing: 1px;
+        margin: 0;
+    }
+
+}
+
+.burger{
+    display: none;
+    cursor: pointer;
+}
+
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    background-color: #fff;
 }
 
 
-@media screen and (max-width: 800px) {
+@media (max-width: 768px) {
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    p.lead {
+        font-size: 1rem;
+    }
+
+    p.text-secondary {
+        font-size: 0.8rem;
+    }
+    .burger{
+        display: block;
+    }
+    .burger.avtive .bar:nth-child(2){
+        opacity: 0;
+    }
+    .burger.avtive .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    .burger.avtive .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    .navigation{
+        position: fixed;
+        left: -100%;
+        top: 90px;
+        gap: 0;
+        flex-direction: column;
+        background-color: #304352;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+        height: 100%;
+    }
+
+    .navigation.active{
+        left: 0;
+    }
+}
+
+
+@media screen and (max-width: 800px)  {
     .cardd{
         width: 400px;
     }
@@ -1327,9 +1373,21 @@ footer {
         font-size: 2rem;
     }
 
+    .soft_skills{
+        margin-bottom: 30px;
+    }
+
+}
 
 
-
+@media screen and (max-width: 799px)  {
+    .imageee img{
+        width: 400px;
+    }
+    .arrow{
+        width: 50px;
+        height: 50px;
+    }
 
 }
 
@@ -1376,5 +1434,25 @@ footer {
         z-index: 3;
         /* font-weight: 300; */
     }
+
+    .text-container{
+        display: block;
+    }
+
+    .main_page{
+        height: 70vh;
+    }
+
+    .letswork h2{
+        font-size: 18px;
+        margin-top: auto;
+    }
+
+    .bg-light{
+        height: auto;
+    }
+
+
+
 
 }
