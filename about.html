@@ -2,43 +2,48 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>About</title>
+    <title>Graphic Designer Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <script src="js/script.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script> -->
+    <script src="js/script.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-    <header class="header">
-        <div class="logo" id="myLogo">
-            <img src="./css/logo/main_logo.svg" class="img_logo" width="60">
-        </div>
-        <nav class="navigation">
-          <ul class="navigation-list">
-            <li class="navigation-item"><a href="./index.html" class="navigation-link">HOME</a></li>
-            <li class="navigation-item"><a href="./projects.html" class="navigation-link">PROJECTS</a></li>
-            <li class="navigation-item"><a href="./about.html" class="navigation-link">ABOUT</a></li>
-            <li class="navigation-item"><a href="./contacts.html" class="navigation-link">CONTACTS</a></li>
-          </ul>
-        </nav>
-        <div class="burger">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-        </div>
-    </header>
+<nav class="header" style="position: sticky; top: 0; z-index: 9;">
+    <div class="logo" id="myLogo">
+        <img src="./css/logo/main_logo.svg" class="img_logo" width="60">
+    </div>
+    <nav class="navigation">
+        <ul class="navigation-list">
+        <li class="navigation-item"><a href="./index.html" class="navigation-link">HOME</a></li>
+        <li class="navigation-item"><a href="./projects.html" class="navigation-link">PROJECTS</a></li>
+        <li class="navigation-item"><a href="./about.html" class="navigation-link">ABOUT</a></li>
+        <li class="navigation-item"><a href="./contacts.html" class="navigation-link">CONTACTS</a></li>
+        </ul>
+    </nav>
+    <div class="burger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </div>
+</nav>
 
 
 <div class="about_me_a">
     <div style="height: 100%">
         <div class="text-container">
             <div class="text-wrapper">
-                <h1 class="txt_h">CREATIVITY DOESN'T</h1>
-                <h1 class="work txt_h">WORK</h1>
+                <h1 class="txt_h" style="margin-bottom: 3%;">CREATIVITY DOESN'T</h1>
+                <h2 class="work txt_h" style="color: #304352;">WORK</h2>
                 <div class="hollow-circle"></div> 
                 <h1 class="txt_h">GREAT IN ISOLATION</h1>
-                <h1 class="txt_h zxcv" style="font-size: 1rem;">ENJOYING A MINIMALISTIC STYLE WHILE INCORPORATING MORE COLOURS IS A PERSONAL TOUCH I BRING TO MY DESIGNS</h1>
             </div>
+        </div>
+        <div>
+            <h1 class="txt_h zxcv" style="color: #304252;">ENJOYING A MINIMALISTIC STYLE WHILE INCORPORATING MORE COLOURS IS A PERSONAL TOUCH I BRING TO MY DESIGNS</h1>
         </div>
     </div>
     <div class="about-image">
@@ -59,13 +64,14 @@
         </div>
         <div class="intro_text">
             <div class="text_intro">   
-                <p >Hi, My name is Aray Abzhali and I’m a graphic designer based on Toronto, Ontario and I specialize in branding, UI/UX and editorial design. </p>
+                <p>Hi, My name is Aray Abzhali and I’m a graphic designer based on Toronto, Ontario and I specialize in branding, UI/UX and editorial design. </p>
             </div>
             <div class="text_intro">
                 <p>The drive to push through limits and continually achieve new heights characterizes my approach. I strive for high-quality work that will satisfy my perfectionist soul.</p>
             </div>
         </div>
     </div>
+
     <div class="container mt-5">
         <div class="line-animation">
             <div class="d-flex align-items-start flex-column mb-3">
@@ -75,13 +81,13 @@
             </div>
         </div>
     </div>
-    <div class="skills">
+    <div class="skills" style="margin-right: 2%;">
         <div class="soft_skills">
             <div class="skill_title">
                 <h1>Soft Skills</h1>
             </div>
             <div class="skill_content">
-                <p>Design Principle • Branding • Typography •<br> UI/UX design • Layout Design</p>
+                <p>Design Principle • Branding • Typography • UI/UX design • Layout Design</p>
             </div>
         </div>
         <div class="soft_skills">
@@ -89,7 +95,7 @@
                 <h1>Technical Skills</h1>
             </div>
             <div class="skill_content">
-                <p>Communication • Discipline • Delegation •<br>Creativity • Adaptability</p>
+                <p>Communication • Discipline • Delegation • Creativity • Adaptability</p>
             </div>
         </div>
         <div class="soft_skills">
@@ -107,7 +113,7 @@
 </div>
 
 
-<div class="contact-section d-flex justify-content-center align-items-center m-5">
+<!-- <div class="contact-section d-flex justify-content-center align-items-center m-5">
     <div class="text-center bg-light rounded shadow p-5 letswork">
         <h2 class="mb-4">INTERESTED IN<br> WORKING TOGETHER?</h2>
         <div class="send_msg" id="myDiv"></div>
@@ -123,15 +129,40 @@
         <a href="#">LINKEDIN</a>
         <a href="#">BEHANCE</a>
     </div>
+</footer> -->
+
+
+<div class="container">
+
+    <div class="contact-section d-flex justify-content-center align-items-center" style="margin-top: 10%;">
+        <div class="text-center bg-light rounded shadow p-5 letswork">
+            <h2 class="mb-4">INTERESTED IN<br> WORKING TOGETHER?</h2>
+            <!-- <a href="#">asd</a> -->
+            <div class="send_msg" id="myDiv"></div>
+            <!-- <button class="btn btn-outline-light rounded-circle">Let's Talk</button> -->
+        </div>
+    </div>
+
+</div>
+<footer class="footer" >
+    <div class="left-content">
+        <p>CONNECT WITH ME</p>
+    </div>
+    <div class="right-content">
+        <a href="#">INSTAGRAM</a>
+        <a href="#">LINKEDIN</a>
+        <a href="#">BEHANCE</a>
+    </div>
 </footer>
 
 <style>
+    
     .footer {
         color: #000;
-        padding: 10px 100px;
+        padding: 40px 100px 40px;
         background-color: transparent;
         display: flex;
-        flex-wrap: wrap;
+        /* flex-wrap: wrap; */
         justify-content: space-between;
         align-items: center;
         font-family: Hoefler Text;
@@ -152,15 +183,19 @@
     @media screen and (max-width: 768px) {
         .footer {
             flex-direction: column;
+            width: 100%;
         }
 
         .right-content {
+            display: flex;
             margin-top: 10px; /* Отступ между контентом слева и справа на мобильных устройствах */
+            justify-content: space-around;
         }
 
         .right-content a {
             display: flex;
             width: 100%;
+            padding: 0 40px;
             text-align: center;
             justify-content: center;
             margin-left: 0;
@@ -171,6 +206,7 @@
         }
     }
 </style>
+
 
 
 

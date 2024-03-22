@@ -115,13 +115,13 @@ h1{
 .hero-section {
     background-color: #304252;
     color: white;
-    padding: 100px 0;
+    padding: 20px 0;
 }
 
 .hero-section_p {
     background-color: #304252;
     color: white;
-    padding: 150px 0;
+    padding: 30px 0;
 }
 
 .img_logo{
@@ -131,7 +131,7 @@ h1{
 .header {
     background-color: #304352; /* Цвет фона шапки */
     color: #fff; /* Цвет текста в шапке */
-    padding: 15px 60px;
+    padding: 15px 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -242,8 +242,9 @@ footer {
     white-space: nowrap;
     position: relative;
     box-sizing: border-box;
-    margin-bottom: 20px;
-    font-size: 100px;
+    margin-bottom: 10px;
+    font-size: 50px;
+    margin-top: 15px;
     line-height: 1.5;
 }
 
@@ -436,12 +437,13 @@ p {
     border-radius: 50%;
     border: 3px solid #304252;
     background-color: transparent;
-    width: 400px;
-    height: 200px;
+    width: 370px;
+    height: 150px;
     position: absolute;
-    right: 0%;
+    right: -8%;
     transform: rotate(-20deg);
-    bottom: 9%;
+    /* bottom: 0; */
+    top: 50%;
 }
 
 .intro{
@@ -450,8 +452,10 @@ p {
 
 
 .zxcv{
+    position: relative;
     letter-spacing: 1px;
-    margin: 0 14%;
+    width: 600px;
+    margin-top: 25%;
 }
 
 
@@ -897,8 +901,14 @@ footer {
     opacity: 1;
 }
 
+.card_bodyy{
+    display: flex;
+    justify-content: center;
+}
+
 .card_bodyy p{
-    text-align: center;
+    font-size: 0.8rem;
+    text-align: left;
     letter-spacing: 2px;
     color: #fff;
     padding: 1rem;
@@ -932,18 +942,21 @@ footer {
     justify-content: center;
     align-items: center;
     width: 100%;
+    margin-bottom: 4%;
 }
 
 .more_projects a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 150px;
+    height: 150px;
     border: 2px solid #fff;
-    border-radius: 20px;
-    padding: 10px 15px;
+    border-radius: 50%;
     text-align: center;
     color: #fff;
     text-decoration: none;
     font-weight: 500;
-
     transition: .3s;
 }
 
@@ -975,6 +988,7 @@ footer {
 }
 
 .text_intro{
+
     font-size: 1.5rem;
     line-height: 2rem;
     font-weight: 100;
@@ -1045,8 +1059,8 @@ footer {
 
 .about_me_a{
     display: flex;
-    justify-content: space-around;
-    margin: 100px 100px 0 100px;
+    justify-content: space-between;
+    margin: 50px 100px 0 100px;
     align-items: center;
 }
 
@@ -1065,6 +1079,10 @@ footer {
     width: 300px;
 }
 
+.zxcv{
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+}
 
 
 
@@ -1149,9 +1167,10 @@ footer {
     }
     .subtitle_v{
         display: block;
+        margin-top: 20px;
     }
     .subtitle_v p{
-        font-size: 2rem;
+        font-size: 1rem;
         font-weight: 100;
         color: #304252;
         letter-spacing: 1px;
@@ -1176,7 +1195,7 @@ footer {
     }
     
     .hollow-circle{
-        display: none;
+        /* display: none; */
     }
 
     .work {
@@ -1210,6 +1229,9 @@ footer {
 }
 
 @media screen and (max-width: 1095px) {
+    .zxcv{
+        width: 400px;
+    }
     .page-header h1{
         font-size: 50px;
     }
@@ -1234,7 +1256,8 @@ footer {
 
     .soft_skills{
         flex-direction: column;
-        margin-bottom: 50px;
+        margin-top: 30px;
+        margin-bottom: 100px;
     }
 
     .introduction{
@@ -1251,7 +1274,8 @@ footer {
     .text_Discover{
         font-size: 100px;
         position: absolute;
-        top: 40%;
+        top: 58%;
+        line-height: 120px;
         left: 39.5%;
         transform: translate(-50%, -50%);
         color: #9A0C0C;
@@ -1273,7 +1297,7 @@ footer {
     }
     
     .str_text{
-        width: 80%;
+        width: 100%;
     }
     
     .str_text h1{
@@ -1283,18 +1307,30 @@ footer {
     }
     
     .str_text p{
-        font-size: 1.5rem;
+        font-size: 1rem;
         padding: 0 0 7% 0;
     }
     
     .str_img img{
-        width: 450px;
+        width: 400px;
         padding: 30px 0;
     }
 
     .zxcv{
         letter-spacing: 1px;
         margin: 0;
+    }
+
+    .text-wrapper h1{
+        font-size: 1.5rem;
+    }
+
+    .zxcv{
+        font-size: 1rem;
+    }
+
+    .about-image img{
+        width: 300px;
     }
 
 }
@@ -1314,6 +1350,11 @@ footer {
 
 
 @media (max-width: 768px) {
+    .vogue_hero{
+        padding: 160px 20px 20px;
+    }
+
+
     h2 {
         font-size: 1.5rem;
     }
@@ -1353,12 +1394,43 @@ footer {
     .navigation.active{
         left: 0;
     }
+    .text-wrapper h1{
+        font-size: 1.4rem;
+    }
+
+
+
+    .zxcv{
+        font-size: 1rem;
+    }
+
+    .about-image img{
+        width: 200px;
+    }
+
+    .card_bodyy p{
+        font-size: 0.6rem;
+        text-align: left;
+        letter-spacing: 2px;
+        color: #fff;
+        padding: 1rem 0rem 1rem 1rem;
+        /* margin: 1rem 1rem; */
+    }
+
+    .more_projects a{
+        width: 100px;
+        height: 100px;
+    }
+
+    .letswork{
+        margin: 7%;
+    }
 }
 
 
 @media screen and (max-width: 800px)  {
     .cardd{
-        width: 400px;
+        width: 350px;
     }
     .cardd img{
         width: 100%;
@@ -1396,13 +1468,25 @@ footer {
         font-size: 30px;
     }
     .subtitle_v p{
-        font-size: 1rem;
+        font-size: 14px;
     }
     .asd{
         display: none;
     }
     .asdd{
         display: block;
+    }
+
+    .hollow-circle {
+        border-radius: 50%;
+        border: 2px solid #304252;
+        background-color: transparent;
+        width: 180px;
+        height: 100px;
+        position: absolute;
+        right: 10%;
+        transform: rotate(-20deg);
+        top: 50%;
     }
 
 
@@ -1425,10 +1509,11 @@ footer {
 
 
     .text_Discover{
-        font-size: 80px;
+        font-size: 50px;
         position: absolute;
-        top: 0%;
+        top: 100%;
         left: 39.5%;
+        line-height: 60px;
         transform: translate(-50%, -50%);
         color: #9A0C0C;
         z-index: 3;
@@ -1452,7 +1537,78 @@ footer {
         height: auto;
     }
 
+    .about_me_a{
+        flex-direction: column;
+    }
+
+    /* .text-wrapper h1{
+        font-size: 0.5rem;
+    } */
 
 
+    .zxcv{
+        font-size: 0.9rem;
+    }
 
+    .about-image img{
+        width: 280px;
+    }
+
+    .zxcv{
+        line-height: 0.9rem;
+        padding: 0 15%;
+        text-align: center;
+        margin: 20% 0;
+    }
+
+    .text-wrapper{
+        margin-top: 10%;
+    }
+
+    .skills{
+        padding: 0px 10px 0 20px;
+        margin: 60px 0px 0 20px;
+    }
+
+    .introduction{
+        text-align: left;
+        font-weight: 100;
+        padding: 100px 30px 0 40px;
+    }
+
+    .text_intro p{
+        font-size: 1rem;
+
+    }
+
+    .text_intro{
+        margin: 1.3rem 0;
+    }
+
+    .soft_skills{
+        align-items: flex-start;
+    }
+
+    .skill_content p{
+        font-size: 1rem;
+        line-height: 2rem;
+    }
+
+    .apps_img{
+        width: 80px;
+    }
+
+    .apps_img img{
+        width: 50px;
+    }
+
+    .skill_title{
+        margin: 1rem 0 1.3rem;
+    }
+    .strategy_text{
+        margin: 0 20px;
+    }
+    .str_text{
+        margin-top: 15px;
+    }
 }
