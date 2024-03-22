@@ -1247,7 +1247,7 @@ footer {
         display: block;
     }
     .page-header {
-        margin-top: 130px;
+        margin-top: 200px;
     }
     .who{
         font-size: 15px;
@@ -1525,7 +1525,7 @@ footer {
     }
 
     .main_page{
-        height: 85vh;
+        height: 50vh;
     }
 
     .letswork h2{
