@@ -528,11 +528,36 @@ h2 {
     letter-spacing: 0.05em;
 }
 
+.btn-outline-lightt {
+    border: 2px solid #304352;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 70px;
+    letter-spacing: 0.05em;
+}
+
 .btn-outline-light.px-5.py-3 {
     padding: 1rem 3rem !important;
 }
 
 .btn-outline-light.rounded-circle {
+    border-radius: 50% !important;
+    width: 200px;
+    height: 200px;
+    line-height: 1.7;
+}
+
+.btn-outline-lightt:hover {
+    background-color: #304352;
+    color: #fff;
+}
+
+.btn-outline-lightt.px-5.py-3 {
+    padding: 1rem 3rem !important;
+}
+
+.btn-outline-lightt.rounded-circle {
     border-radius: 50% !important;
     width: 200px;
     height: 200px;
@@ -1728,6 +1753,56 @@ footer {
     .ttt{
         margin-bottom: 10px;
     }
+
+
+
+
+    .btn-outline-light {
+        border: 2px solid white;
+        color: white;
+        text-transform: uppercase;
+        font-weight: 600;
+        margin-top: 70px;
+        letter-spacing: 0.05em;
+    }
+    
+    .btn-outline-lightt {
+        border: 2px solid #304352;
+        color: white;
+        text-transform: uppercase;
+        font-weight: 600;
+        margin-top: 70px;
+        letter-spacing: 0.05em;
+    }
+    
+    .btn-outline-light.px-5.py-3 {
+        padding: 1rem 3rem !important;
+    }
+    
+    .btn-outline-light.rounded-circle {
+        border-radius: 50% !important;
+        width: 150px;
+        height: 150px;
+        line-height: 1.7;
+    }
+    
+    .btn-outline-lightt:hover {
+        background-color: #304352;
+        color: #fff;
+    }
+    
+    .btn-outline-lightt.px-5.py-3 {
+        padding: 1rem 3rem !important;
+    }
+    
+    .btn-outline-lightt.rounded-circle {
+        border-radius: 50% !important;
+        width: 150px;
+        height: 150px;
+        line-height: 1.7;
+    }
+
+
 
 }
 
