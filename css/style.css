@@ -1719,10 +1719,10 @@ footer {
 }
 
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 400px) {
 
     .text_Discover{
-        top: 60%;
+        top: 65%;
     }
 
     .zxcv{
