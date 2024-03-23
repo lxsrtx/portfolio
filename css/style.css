@@ -258,6 +258,7 @@ footer {
     font-family: Hoefler Text;
     color: #304252;
     font-size: 6rem;
+    z-index: 1;
 }
 
 
@@ -1105,7 +1106,7 @@ footer {
 .about_me_a{
     display: flex;
     justify-content: space-between;
-    margin: 50px 100px 0 100px;
+    margin: 150px 100px 0 100px;
     align-items: center;
 }
 
@@ -1575,7 +1576,7 @@ footer {
     .text_Discover{
         font-size: 50px;
         position: absolute;
-        top: 67%;
+        top: 75%;
         left: 39.5%;
         line-height: 60px;
         transform: translate(-50%, -50%);
