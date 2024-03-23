@@ -494,7 +494,7 @@ p {
 }
 
 .bgg{
-    background: url("../images/qwerty.jpg") center center / cover no-repeat;
+    background: url("../images/asdf.JPG") center center / cover no-repeat;
 }
 
 .bggg{
@@ -589,6 +589,12 @@ h2 {
 .vogue_change{
     position: relative;
     transform: translate(0%, -3%);
+    z-index: 1;
+}
+
+.vogue_changee{
+    position: relative;
+    transform: translate(0%, -2%);
     z-index: 1;
 }
 
