@@ -1361,7 +1361,7 @@ footer {
     }
     
     .str_img img{
-        width: 400px;
+        width: 100%;
         padding: 30px 0;
     }
 
@@ -1714,6 +1714,37 @@ footer {
 
     .ttt{
         margin-bottom: 10px;
+    }
+
+}
+
+
+@media screen and (max-width: 375px) {
+
+    .text_Discover{
+        top: 60%;
+    }
+
+    .zxcv{
+        width: 100%;
+        padding: 0;
+        font-size: 0.7rem;
+    }
+
+    .text-wrapper h1 {
+        font-size: 1rem;
+    }
+
+    .hollow-circle {
+        border-radius: 50%;
+        border: 2px solid #304252;
+        background-color: transparent;
+        width: 150px;
+        height: 70px;
+        position: absolute;
+        right: -8%;
+        transform: rotate(-20deg);
+        top: 55%;
     }
 
 }
