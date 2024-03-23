@@ -35,7 +35,7 @@
 
   <div class="row align-items-center">
     <div class="col-lg-5">
-      <h1 class="font-weight-bold ivy text_Discover txt_h" style="color: #9b6d2c">Timeless x Boldness</h1>
+      <h1 class="font-weight-bold  text_Discover txt_h qsx">Timeless x Boldness</h1>
     </div>
     <div class="col-lg-7 text-lg-right container-fluid">
       <h2 class="mainText_Vogue txt_h">IVY&ROSE</h2>
@@ -113,25 +113,7 @@
             </div>
           </div>
           
-          <!-- <div class="skills">
-            <div class="soft_skills">
-                <div class="skill_title">
-                    <h1 style="font-size: 1.2rem;">GOAL</h1>
-                </div>
-                <div class="skill_content">
-                    <p>The goal of this project is to create a magazine layout consistent of 34-page that covers profile story, cover story, mini feature and advertisement.</p>
-                </div>
-            </div>
-            <div class="soft_skills">
-                <div class="skill_title">
-                    <h1 style="font-size: 1.2rem;">BACKGROUND</h1>
-                </div>
-                <div class="skill_content">
-                  
-                    <p style="width: 100%">This project took three months to complete. The task involved selecting a magazine brand with a design style I enjoyed and adding my own touch to develop a 34-page magazine on a topic of my choice. The project delved into magazine layout, hierarchy, typography.</p>
-                </div>
-            </div>
-        </div> -->
+
 
         <div class="introd">
           <div class="introd_title">
@@ -274,7 +256,13 @@
     </div>
 
     <div class="" style="padding: 20px 0;">
+      <img src="images/logos/ivy&rose-main-logo.jpg" class="card-img-top " alt="фото">
+    </div>
+    <div class="" style="padding: 20px 0;">
       <img src="images/logos/ivy&rose-icon.jpg" class="card-img-top " alt="фото">
+    </div>
+    <div class="" style="padding: 20px 0;">
+      <img src="images/logos/ivy&rose-illustration.jpg" class="card-img-top " alt="фото">
     </div>
     <div class="" style="padding: 20px 0;">
       <img src="images/ivy&rose-branding.jpg" class="card-img-top " alt="фото">
@@ -299,21 +287,35 @@
     </div>
   </div>
 
-<footer class="footer">
-  <div class="left-content">
-      <p>CONNECT WITH ME</p>
-  </div>
-  <div class="right-content">
-      <a href="#">INSTAGRAM</a>
-      <a href="#">LINKEDIN</a>
-      <a href="#">BEHANCE</a>
-  </div>
-</footer>
+  <div style="background-color: #304352;">
+    <div class="contact-section d-flex justify-content-center align-items-center m-5">
+      <div class="text-center bg-light shadow p-5 bgg fgh">
+        <h2 class="mb-4 zsd" style="font-family: Hoefler Text;">DIME</h2>
+        <button class="btn btn-outline-light rounded-circle" id="pr1">View Project</button>
+      </div>
+    </div>
+
+
+  <footer class="footer" style="color: #fff">
+    
+    <div class="left-content">
+        <p>CONNECT WITH ME</p>
+    </div>
+    <div class="right-content" >
+        <a href="#" style="color: #fff">INSTAGRAM</a>
+        <a href="#" style="color: #fff">LINKEDIN</a>
+        <a href="#" style="color: #fff">BEHANCE</a>
+    </div>
+  </footer>
+</div>
 </div>
 
 
 
 <style>
+  .qsx{
+    color: #9b6d2c
+  }
   .containerr{
     max-width: 1150px;
     margin: auto;
@@ -329,7 +331,7 @@
     /* height: 90%; */
   }
 
-        header {
+         header {
         position: fixed;
         top: 0;
         width: 100%;
@@ -363,6 +365,9 @@
 
 
   @media screen and (max-width: 768px) {
+    .qsx{
+      color: #fff;
+    }
     .containerr{
       padding: 20px;
     }
@@ -456,9 +461,9 @@
   });
 
   document.addEventListener("DOMContentLoaded", function() {
-  var myDiv = document.getElementById("ivy");
+  var myDiv = document.getElementById("pr1");
   myDiv.addEventListener("click", function() {
-      window.location.href = "ivy.html";
+      window.location.href = "pr1.html";
   });
   });
 

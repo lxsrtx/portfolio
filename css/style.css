@@ -493,6 +493,18 @@ p {
     background: url("../images/t1.png") center center / cover no-repeat;
 }
 
+.bgg{
+    background: url("../images/qwerty.jpg") center center / cover no-repeat;
+}
+
+.bggg{
+    background: url("../images/zxc.jpg") center center / cover no-repeat;
+}
+
+.bgg_g{
+    background: url("../images/fgh.jpg") center center / cover no-repeat;
+}
+
 .rounded{
 
     border-radius: 100px;
@@ -541,7 +553,7 @@ h2 {
 .text_Discover{
     font-size: 130px;
     position: absolute;
-    /* top: 70%; */
+    top: 50%;
     left: 39.5%;
     transform: translate(-50%, -50%);
     color: #9A0C0C;
@@ -1576,7 +1588,7 @@ footer {
     .text_Discover{
         font-size: 50px;
         position: absolute;
-        top: 90%;
+        top: 87%;
         left: 39.5%;
         line-height: 60px;
         transform: translate(-50%, -50%);
@@ -1720,7 +1732,7 @@ footer {
 }
 
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 420px) {
 
     .text_Discover{
         top: 75%;
@@ -1746,6 +1758,12 @@ footer {
         right: -8%;
         transform: rotate(-20deg);
         top: 55%;
+    }
+
+    .text_Discover{
+        font-size: 2rem;
+        line-height: 2rem;
+        color: #fff;
     }
 
 }
