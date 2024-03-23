@@ -32,7 +32,8 @@
     </header>
 
 
-    <div class="section-container" style="height:50vh; margin-top: 5%;">
+
+    <div class="section-container" style="margin-top: 5%;">
         <div class="container">
           <div class="row">
             <div class="col-xs-12">
@@ -94,6 +95,10 @@
 
 
 <style>
+    .section_container{
+        height:73vh;
+    }
+
     .contacts{
         width: 100%;
         justify-content: space-between;
@@ -173,6 +178,11 @@
     @media screen and (max-width: 30em) {
         .footer{
             flex-direction: column;
+        }
+    }
+    @media screen and (max-width: 425px) {
+        .section_container{
+            height:100vh;
         }
     }
 </style>

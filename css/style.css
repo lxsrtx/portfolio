@@ -1576,7 +1576,7 @@ footer {
     .text_Discover{
         font-size: 50px;
         position: absolute;
-        top: 83%;
+        top: 90%;
         left: 39.5%;
         line-height: 60px;
         transform: translate(-50%, -50%);
@@ -1723,7 +1723,7 @@ footer {
 @media screen and (max-width: 400px) {
 
     .text_Discover{
-        top: 80%;
+        top: 75%;
     }
 
     .zxcv{
