@@ -60,7 +60,7 @@
       </div>
       <div class="col">
         <div class="card img_zIndex rounded-4">
-          <img src="images/Vogue.jpg" class="card-img-top rounded-4" alt="photo">
+          <img src="images/Vogue.jpg" class="card-img-top rounded-4" alt="magazine mockup">
         </div>
       </div>
     </div>
@@ -171,7 +171,7 @@
         </div>
       </div>
       <div class="str_img">
-        <img src="images/vogue_image1.jpg">
+        <img src="images/vogue_image1.jpg" alt="moodboard">
       </div>
     </div>
 
@@ -222,16 +222,16 @@
     </div> -->
     <div class="vog_img">
       <div class="vog_image">
-        <img src="images/vague_gallery_1.jpg"  alt="...">
+        <img src="images/vague_gallery_1.jpg"  alt="moodboard title page">
       </div>
       <div class="vog_image">
-        <img src="images/vague_gallery_2.jpg"  alt="...">
+        <img src="images/vague_gallery_2.jpg"  alt="moodboard with typography and photography styles">
       </div>
       <div class="vog_image">
-        <img src="images/vague_gallery_3.jpg"  alt="...">
+        <img src="images/vague_gallery_3.jpg"  alt="photography creative direction">
       </div>
       <div class="vog_image">
-        <img src="images/vague_gallery_4.jpg"  alt="...">
+        <img src="images/vague_gallery_4.jpg"  alt="grid column on top of magazine's page">
       </div>
     </div>
 
@@ -278,19 +278,19 @@
       <img src="images/logos/" class="card-img-top " alt="фото">
     </div> -->
     <div class="" style="padding: 20px 0;">
-      <img src="images/vogue1.jpg" class="card-img-top " alt="фото">
+      <img src="images/vogue1.jpg" class="card-img-top " alt="content and editor's letter page">
     </div>
     <div class="" style="padding: 20px 0;">
-      <img src="images/vogue2.jpg" class="card-img-top " alt="фото">
+      <img src="images/vogue2.jpg" class="card-img-top " alt="page about Jane Birkin with her photo">
     </div>
     <div class="" style="padding: 20px 0;">
-      <img src="images/vogue3.jpg" class="card-img-top " alt="фото">
+      <img src="images/vogue3.jpg" class="card-img-top " alt="page about Jane Birkin's love life with photo of her husband">
     </div>
     <div class="" style="padding: 20px 0;">
-      <img src="images/vogue4.jpg" class="card-img-top " alt="фото">
+      <img src="images/vogue4.jpg" class="card-img-top " alt="page about Naomi Campbell with b&w picture of her on chair">
     </div>
     <div class="" style="padding: 20px 0;">
-      <img src="images/vogue5.jpg" class="card-img-top " alt="фото">
+      <img src="images/vogue5.jpg" class="card-img-top " alt="page about Naomi Campbell's modeling career and her success">
     </div>
 
   </div>
@@ -298,8 +298,8 @@
     <div class="contact-section d-flex justify-content-center align-items-center m-5">
       <div class="text-center bg-light shadow p-5 bg fgh">
         <h1 class="mb-4 " style="font-family: Hoefler Text; color: #fff; margin-top: 10%;">NEXT PROJECT</h1>
-        <h2 class="mb-4 zsd" style="font-family: Hoefler Text;">IVY&ROSE</h2>
-        <button class="btn btn-outline-light rounded-circle" id="ivy">View Project</button>
+        <h2 class="mb-4 zsd" style="font-family: Hoefler Text;">VOGUE</h2>
+        <button class="btn btn-outline-light rounded-circle" id="vogue" >View Project</button>
       </div>
     </div>
 
@@ -321,94 +321,122 @@
 
 
 <style>
+
+.zsd{
+  font-size: 4rem;
+}
+.ax{
+  color: #121356;
+}
+.containerr{
+  max-width: 1150px;
+  margin: auto;
+}
+
+.problem{
+    display: flex;
+    justify-content: space-between;
+  }
+
+.problem img{
+  width: 48%;
+  /* height: 90%; */
+}
+
+      header {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: #333;
+      color: #fff;
+      padding: 10px 20px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      z-index: 1000; /* Убедитесь, что значение z-index достаточно высоко */
+  }
+.footer {
+    color: #000;
+    padding: 40px 100px 40px;
+    background-color: transparent;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    align-items: center;
+    font-family: Hoefler Text;
+}
+
+.left-content p {
+    font-size: 1rem;
+    margin: 0;
+}
+
+.right-content a {
+    text-decoration: none;
+    color: #000;
+    margin-left: 20px; /* Отступ между ссылками */
+}
+
+
+@media screen and (max-width: 768px) {
   .yui{
-    margin-top: 10.5rem;
+  margin-top: 8rem;
+}
+  .ax{
+    color: #fff;
   }
-  .zsd{
-    font-size: 4rem;
+  .containerr{
+    padding: 20px;
   }
-        header {
-        position: fixed;
-        top: 0;
+    .problem{
+      flex-direction: column;
+      width: 100%;
+    }
+
+    .problem img{
+      width: 100%;
+  /* height: 90%; */
+      
+    }
+
+    .problem img:nth-child(1){
+      margin-bottom: 40px;
+    }
+
+    .footer {
+        flex-direction: column;
         width: 100%;
-        background-color: #333;
-        color: #fff;
-        padding: 10px 20px;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-        z-index: 1000; /* Убедитесь, что значение z-index достаточно высоко */
     }
-  .footer {
-      color: #000;
-      padding: 40px 100px 40px;
-      background-color: transparent;
-      display: flex;
-      /* flex-wrap: wrap; */
-      justify-content: space-between;
-      align-items: center;
-      font-family: Hoefler Text;
+
+    .right-content {
+        display: flex;
+        margin-top: 10px; /* Отступ между контентом слева и справа на мобильных устройствах */
+        justify-content: space-around;
+    }
+
+    .right-content a {
+        display: flex;
+        width: 100%;
+        padding: 0 20px;
+        text-align: center;
+        justify-content: center;
+        margin-left: 0;
+        margin-top: 5px; /* Отступ между ссылками на мобильных устройствах */
+    }
+    .navigation-list{
+        flex-direction: column;
+    }
+    .asdfg{
+      display: none;
+    }
   }
 
-  .left-content p {
-      font-size: 1rem;
-      margin: 0;
-  }
-
-  .right-content a {
-      text-decoration: none;
-      color: #000;
-      margin-left: 20px; /* Отступ между ссылками */
-  }
-
-
-  @media screen and (max-width: 768px) {
-    .yui{
-    margin-top: 8rem;
-  }
-    .zsd{
-      margin-top: 30px;
-    }
-    .fgh{
-      height: 400px;
-    }
-    .btn-outline-light {
-      margin-top: 20px;
-    }
+  @media screen and (max-width: 320px) {
+      .right-content a{
+          padding: 0 11px;
+      }
       .footer {
-          flex-direction: column;
-          width: 100%;
+          padding: 20px;
       }
-
-      .right-content {
-          display: flex;
-          margin-top: 10px; /* Отступ между контентом слева и справа на мобильных устройствах */
-          justify-content: space-around;
-      }
-
-      .right-content a {
-          display: flex;
-          width: 100%;
-          padding: 0 20px;
-          text-align: center;
-          justify-content: center;
-          margin-left: 0;
-          margin-top: 5px; /* Отступ между ссылками на мобильных устройствах */
-      }
-      .navigation-list{
-          flex-direction: column;
-      }
-      .asdfg{
-        display: none;
-      }
-    }
-
-    @media screen and (max-width: 320px) {
-        .right-content a{
-            padding: 0 11px;
-        }
-        .footer {
-            padding: 20px;
-        }
-    }
+  }
 
 </style>
 
