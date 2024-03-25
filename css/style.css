@@ -1572,6 +1572,9 @@ footer {
 }
 
 @media screen and (max-width: 615px) {
+    .vogue_changee{
+        transform: translate(0%, -2.7%);
+    }
     .page-header h1{
         font-size: 30px;
     }
