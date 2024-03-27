@@ -118,9 +118,9 @@
     .header {
         position: fixed;
         top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 999;
+        left: 0;
+        width: 100%;
+        z-index: 999;
     }
 
     .contact-info {
@@ -234,39 +234,29 @@
     }
 
     @media screen and (max-width: 768px) {
-        /* .footer {
-            flex-direction: column;
-        } */
-
-        .right-content {
-            margin-top: 10px; /* Отступ между контентом слева и справа на мобильных устройствах */
-        }
-
-        .right-content a {
-            display: flex;
-            width: 100%;
-            text-align: center;
-            justify-content: center;
-            margin-left: 0;
-            margin-top: 5px; /* Отступ между ссылками на мобильных устройствах */
-        }
         .navigation-list{
             flex-direction: column;
         }
-        .left-content p{
-            text-align: center;
+
+        .contact-info h1 {
+            font-size: 2.5rem;
+        }
+
+        .contact-info {
+            margin-top: 6rem;
+        }
+
+        .subhead h3 {
+            font-size: 1.5rem;
+            padding-top: 2rem;
         }
     }
-
     @media screen and (max-width: 30em) {
         .footer{
             flex-direction: column;
         }
     }
     @media screen and (max-width: 425px) {
-        .section_container{
-            height:100vh;
-        }
 
         .contact-info h1 {
             font-size: 3rem;
