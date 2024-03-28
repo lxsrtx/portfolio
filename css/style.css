@@ -1311,6 +1311,10 @@ footer {
         padding-top: 3rem;
     }
 
+    .card_title {
+        left: -9%;
+    }
+
 }
 
 @media screen and (max-width: 1095px) {
@@ -1457,6 +1461,15 @@ footer {
 
     h2 {
         font-size: 1.5rem;
+    }
+
+    .card-body {
+        height: 350px;
+    }
+
+    .card_title {
+        font-size: 3rem;
+        bottom: -20%;
     }
 
     p.lead {
