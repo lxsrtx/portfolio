@@ -1302,6 +1302,11 @@ footer {
         display: none;
     }
 
+    .hollow-circle {
+        border: 2.5px solid #304252;
+        left: 43%;
+    }
+
 }
 
 @media screen and (max-width: 1095px) {
