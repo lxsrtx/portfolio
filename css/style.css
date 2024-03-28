@@ -616,7 +616,7 @@ h2 {
 }
 
 .mine_height{
-    margin-top: 150px;
+    margin-top: 170px;
 }
 
 .vogue_text, .vogue_title{
@@ -816,15 +816,6 @@ footer {
     background-color: #007bff; /* Синий фон при наведении */
     color: #ff0000; /* Красный текст при наведении */
 }
-
-
-
-/* @media screen and (min-width: 1400px) {
-    .subtitle p{
-        font-size: 10px;
-    }
-} */
-
 
 .transparent-box {
     
@@ -1070,6 +1061,10 @@ footer {
     padding-left: 10%;
 }
 
+.xrw{
+    padding-left: 10%;
+}
+
 
 .text_intro{
 
@@ -1180,39 +1175,16 @@ footer {
 
 
 
+
+
 .dopclass{
     text-align: right;
     padding-left: 25%;
 }
 
-@media screen and (max-width: 1400px) {    
-    .subtitle p{
-        text-align: left;
-        font-size: 15px;
-        font-weight: 100;
-        color: #304252;
-        letter-spacing: 1px;
-    }
 
 
 
-}
-
-@media screen and (max-width: 1300px) {
-    .subtitle{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-left: 3%;
-    }
-    
-    .subtitle p{
-        text-align: left;
-        font-size: 15px;
-        font-weight: 100;
-        color: #304252;
-        letter-spacing: 1px;
-    }
 
 
 
@@ -1256,7 +1228,7 @@ footer {
         top: 60%;
     }
 
-}
+
 
 @media screen and (max-width: 1220px) {
     .subtitle{
@@ -1447,6 +1419,21 @@ footer {
         padding: 100px 20px 50px;
     }
 
+    .cardd img {
+        height: 350px;
+    }
+
+    .cardd {
+        width: 450px;
+    }
+
+    .wrx{
+        padding-left: 25%;
+    }
+
+    .introd {
+        padding: 85px 0px 0 0px;
+    }
 
     h2 {
         font-size: 1.5rem;
@@ -1491,10 +1478,21 @@ footer {
         font-size: 1.4rem;
     }
 
+    .hollow-circle {
+        border: 2px solid #304252;
+        height: 80px;
+        top: 55%;
+        left: 40%;
+    }
 
 
     .zxcv{
         font-size: 1rem;
+        padding: 2rem 2rem 0 0;
+    }
+
+    .ttt {
+        text-align: left;
     }
 
     .about-image img{
@@ -1502,7 +1500,7 @@ footer {
     }
 
     .card_bodyy p{
-        font-size: 0.6rem;
+        font-size: 0.8rem;
         text-align: left;
         letter-spacing: 2px;
         color: #fff;
@@ -1537,15 +1535,6 @@ footer {
 
 
 @media screen and (max-width: 800px)  {
-    .cardd{
-        width: 350px;
-    }
-    .cardd img{
-        width: 100%;
-        height: 250px;
-        display: block;
-        margin: auto;    
-    }
     .card_body{
         height: 250px;
     }
@@ -1559,6 +1548,25 @@ footer {
 
 }
 
+@media screen and (max-width: 30em) {
+    .cardd img {
+        height: 250px;
+    }
+
+    .cardd {
+        width: 350px;
+    }
+
+    .card_bodyy p{
+        font-size: 0.6rem;
+        text-align: left;
+        letter-spacing: 2px;
+        color: #fff;
+        padding: 1rem 0rem 1rem 1rem;
+        /* margin: 1rem 1rem; */
+    }
+}
+
 
 @media screen and (max-width: 799px)  {
     .imageee img{
@@ -1569,6 +1577,12 @@ footer {
         height: 50px;
     }
 
+}
+
+@media screen and (max-width: 30em){ /* mobile < 480px */
+    .xrw {
+        padding-left: 0;
+    }
 }
 
 @media screen and (max-width: 615px) {
