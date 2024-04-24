@@ -1286,6 +1286,11 @@ nav ul li a:hover {
     .next-project-card h1 {
         padding-top: 0rem;
     }
+
+    .card_title {
+        left: -8%;
+        font-size: 5rem;
+    }
 }
 
 @media screen and (max-width: 30em){ /* mobile < 480px */
