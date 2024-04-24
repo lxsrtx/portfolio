@@ -1,20 +1,49 @@
-$(document).ready(function () {
-    function animateText() {
-        $('.scroll-text:first-child').animate({
-            'margin-left': '-=' + $('.scroll-container').width()
-        }, 5000, 'linear', function () {
-            $(this).css('margin-left', $('.scroll-container').width());
-            $(this).appendTo('.scroll-container');
-        });
+document.addEventListener("DOMContentLoaded", function() {
+    var myDiv = document.getElementById("myDiv");
+    myDiv.addEventListener("click", function() {
+        window.location.href = "mailto:hireme@arayabzhali.com";
+    });
+    });
 
-        $('.scroll-text:last-child').animate({
-            'margin-left': '-=' + ($('.scroll-container').width() * 2)
-        }, 10000, 'linear', function() {
-            $(this).css('margin-left', $('.scroll-container').width());
-            animateText();
-        });
-    }
+    document.addEventListener("DOMContentLoaded", function() {
+    var myDiv = document.getElementById("myLogo");
+    myDiv.addEventListener("click", function() {
+        window.location.href = "index.html";
+    });
+    });
 
-    animateText();
-});
+    document.addEventListener("DOMContentLoaded", function() {
+    var myDiv = document.getElementById("cocoon");
+    myDiv.addEventListener("click", function() {
+        window.location.href = "cocoon.html";
+    });
+    });
 
+    document.addEventListener("DOMContentLoaded", function() {
+    var myDiv = document.getElementById("vogue");
+    myDiv.addEventListener("click", function() {
+        window.location.href = "vogue.html";
+    });
+    });
+
+    document.addEventListener("DOMContentLoaded", function() {
+    var myDiv = document.getElementById("ivy");
+    myDiv.addEventListener("click", function() {
+        window.location.href = "ivy&rose.html";
+    });
+    });
+
+    document.addEventListener("DOMContentLoaded", function() {
+    var myDiv = document.getElementById("dime");
+    myDiv.addEventListener("click", function() {
+        window.location.href = "dime.html";
+    });
+    });
+
+    const burger = document.querySelector(".burger");
+    const navMenu = document.querySelector(".expand");
+
+    burger.addEventListener("click", () => {
+        burger.classList.toggle("active");
+        navMenu.classList.toggle("active");
+    })

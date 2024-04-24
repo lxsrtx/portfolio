@@ -2,332 +2,106 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Graphic Designer Portfolio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script> -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <script src="js/script.js" defer></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/flz5yno.css">
 </head>
 <body>
-
-<nav class="header" style="position: fixed; width: 100%; top: 0; z-index: 100;">
-    <div class="logo" id="myLogo">
-        <img src="./css/logo/main_logo.svg" alt="A letter logo" class="img_logo" width="60">
-    </div>
-    <nav class="navigation">
-        <ul class="navigation-list">
-        <li class="navigation-item"><a href="./index.html" class="navigation-link">HOME</a></li>
-        <li class="navigation-item"><a href="./projects.html" class="navigation-link">PROJECTS</a></li>
-        <li class="navigation-item"><a href="./about.html" class="navigation-link">ABOUT</a></li>
-        <li class="navigation-item"><a href="./contacts.html" class="navigation-link">CONTACTS</a></li>
+    <nav id="nav">
+        <img src="./img/main_logo.svg" alt="A letter logo" class="logo" id="myLogo">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
-    </nav>
-    <div class="burger">
+      </nav>
+      <div class="burger">
         <span class="bar"></span>
         <span class="bar"></span>
         <span class="bar"></span>
-    </div>
-</nav>
+      </div>
 
-
-<div class="about_me_a">
-    <div style="height: 100%;" >
-        <div class="text-container">
-            <div class="text-wrapper">
-                <h1 class="txt_h" style="margin-bottom: 3%;">CREATIVITY DOESN'T</h1>
-                <h2 class="work txt_h" style="color: #304352;">WORK</h2>
-                <div class="hollow-circle"></div> 
-                <h1 class="txt_h">GREAT IN ISOLATION</h1>
-            </div>
+      <!--about me section-->
+      
+      <div class="about-me">
+        <div class="text-wrapper">
+            <h1>Creativity Doesn't</h1>
+            <h2>Work</h2>
+            <div class="hollow-circle"></div> 
+            <h1>Great in Isolation</h1>
         </div>
+            <h1 class="about-me-desc">ENJOYING A MINIMALISTIC STYLE WHILE INCORPORATING MORE COLOURS IS A PERSONAL TOUCH I BRING TO MY DESIGNS</h1>
+            <div class="about-image">
+                <img src="img/DSC_0125.jpg" alt="a girl with a short haircut in black blazer">
+            </div>
+      </div>
+
+      <div class="scroll-container">
+        <div class="scroll-text">· BRANDING · UX/UI DESIGN · EDITOR</div>
+        <div class="scroll-text">· BRANDING · UX/UI DESIGN · EDITOR</div>
+      </div>
+
+      <!--introduction section-->
+      <div class="about-me-introduction">
+      <div class="introduction-text">
+        <h1>INTRODUCTION</h1>
         <div>
-            <h1 class="txt_h zxcv" style="color: #304252;">ENJOYING A MINIMALISTIC STYLE WHILE INCORPORATING MORE COLOURS IS A PERSONAL TOUCH I BRING TO MY DESIGNS</h1>
+            <p>Hi, My name is Aray Abzhali and I’m a graphic designer based on Toronto, Ontario and I specialize in branding, UI/UX and editorial 
+            design.</p>
+            <p>The drive to push through limits and continually achieve new heights characterizes my approach. I strive for high-quality 
+            work that will satisfy my perfectionist soul.</p>
         </div>
-    </div>
-    <div class="about-image">
-        <img src="images/DSC_0125.jpg" alt="a girl with a short haircut in black blazer" class="" style="max-width: 430px; border-radius: 350px;">
-    </div>
-</div>
-
-
-<div class="scroll-container">
-    <div class="scroll-text">· BRANDING · UX/UI DESIGN · EDITOR</div>
-    <div class="scroll-text">· BRANDING · UX/UI DESIGN · EDITOR</div>
-</div>
-
-<div class="intro_block">
-    <div class="introduction">
-        <div class="introduction_title">
-            <h1>INTRODUCTION</h1>
+      </div>
+      <div class="white-line">
+        <div class="line" style="color: #000;"></div>
+      </div>
+      <div class="skills-text">
+        <h1>Soft Skills</h1>
+        <div>
+        <p>Design Principle • Branding • Typography • UI/UX design • Layout Design</p>
         </div>
-        <div class="intro_text">
-            <div class="text_intro">   
-                <p>Hi, My name is Aray Abzhali and I’m a graphic designer based on Toronto, Ontario and I specialize in branding, UI/UX and editorial design. </p>
-            </div>
-            <div class="text_intro">
-                <p>The drive to push through limits and continually achieve new heights characterizes my approach. I strive for high-quality work that will satisfy my perfectionist soul.</p>
-            </div>
+      </div>
+      <div class="skills-text">
+        <h1>Technical Skills</h1>
+        <div>
+        <p>Communication • Discipline • Delegation • Creativity • Adaptability</p>
         </div>
-    </div>
-
-    <div class="container mt-5">
-        <div class="line-animation">
-            <div class="d-flex align-items-start flex-column mb-3">
-                <div class="mb-auto">
-                    <div class="line" style="color: #000;"></div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- <div class="skills" style="margin-right: 2%;"> -->
-    <div class="introduction">
-        <div class="introduction_title ttt">
-            <h1>SOFT SKILLS</h1>
-        </div>
-        <div class="intro_text">
-            <div class="text_introo">   
-                <p class="dopclass">Design Principle • Branding • Typography • UI/UX design • Layout Design </p>
-            </div>
-        </div>
-    </div>
-    <div class="introduction">
-        <div class="introduction_title ttt">
-            <h1 style="text-transform: uppercase;">Technical Skills</h1>
-        </div>
-        <div class="intro_text">
-            <div class="text_introo">   
-                <p class="dopclass">Communication • Discipline • Delegation • Creativity • Adaptability </p>
-            </div>
-        </div>
-    </div>
-    <div class="introduction">
-        <div class="introduction_title ttt">
-            <h1 style="text-transform: uppercase;">Software Skills</h1>
-        </div>
+      </div>
+      <div class="skills-text">
+        <h1>Software Skills</h1>
         <div class="apps">
-            <div class="apps_img"><img src="icons/IconSimple-adobeillustrator.svg"  alt="illustrator icon"></div>
-            <div class="apps_img"><img src="icons/IconSimple-adobeindesign.svg" alt="indesign icon"></div>
-            <div class="apps_img"><img src="icons/IconSimple-adobephotoshop.svg" alt="photoshop icon"></div>
-            <div class="apps_img"><img src="icons/IconSimple-adobexd.svg" alt="xd icon"></div>
+            <div class="apps_img"><img src="img/IconSimple-adobeillustrator.svg"  alt="illustrator icon"></div>
+            <div class="apps_img"><img src="img/IconSimple-adobeindesign.svg" alt="indesign icon"></div>
+            <div class="apps_img"><img src="img/IconSimple-adobephotoshop.svg" alt="photoshop icon"></div>
+            <div class="apps_img"><img src="img/IconSimple-adobexd.svg" alt="xd icon"></div>
         </div>
-    </div>
+      </div>
+      </div>
 
-</div>
-
-
-<!-- <div class="contact-section d-flex justify-content-center align-items-center m-5">
-    <div class="text-center bg-light rounded shadow p-5 letswork">
-        <h2 class="mb-4">INTERESTED IN<br> WORKING TOGETHER?</h2>
-        <div class="send_msg" id="myDiv"></div>
-    </div>
-</div>
-
-<footer class="footer">
-    <div class="left-content">
-        <p>CONNECT WITH ME</p>
-    </div>
-    <div class="right-content">
-        <a href="#">INSTAGRAM</a>
-        <a href="#">LINKEDIN</a>
-        <a href="#">BEHANCE</a>
-    </div>
-</footer> -->
-
-
-<div class="container">
-
-    <div class="contact-section d-flex justify-content-center align-items-center">
-        <div class="text-center bg-light rounded shadow p-5 letswork">
-            <h2 class="mb-4">INTERESTED IN<br> WORKING TOGETHER?</h2>
-            <!-- <a href="#">asd</a> -->
+      <!--contact me section-->
+    <div class="contact-container">
+        <div class="gradient-bg">
+            <h2>INTERESTED IN<br> WORKING TOGETHER?</h2>
             <div class="send_msg" id="myDiv"></div>
-            <!-- <button class="btn btn-outline-light rounded-circle">Let's Talk</button> -->
         </div>
     </div>
 
-</div>
-<footer class="footer" >
-    <div class="left-content">
-        <p>CONNECT WITH ME</p>
-    </div>
-    <div class="right-content">
-        <a href="https://www.instagram.com/lxsrtx/?hl=en">INSTAGRAM</a>
-        <a href="www.linkedin.com/in/arayabzhali">LINKEDIN</a>
-        <a href="https://www.behance.net/arayabzhali">BEHANCE</a>
-    </div>
-</footer>
-
-<style>
-    
-    header {
-        position: fixed;
-        top: 0;
-        width: 100%;
-        background-color: #333;
-        color: #fff;
-        padding: 10px 20px;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-        z-index: 2000; /* Убедитесь, что значение z-index достаточно высоко */
-    }
-    
-    .footer {
-        color: #000;
-        padding: 40px 100px 40px;
-        background-color: transparent;
-        display: flex;
-        /* flex-wrap: wrap; */
-        justify-content: space-between;
-        align-items: center;
-        font-family: Hoefler Text;
-    }
-
-    .left-content p {
-        font-size: 1rem;
-        margin: 0;
-    }
-
-    .right-content a {
-        text-decoration: none;
-        color: #000;
-        margin-left: 20px; /* Отступ между ссылками */
-    }
-
-
-    @media screen and (max-width: 768px) {
-        .footer {
-            flex-direction: column;
-            width: 100%;
-        }
-
-        .right-content {
-            display: flex;
-            margin-top: 10px; /* Отступ между контентом слева и справа на мобильных устройствах */
-            justify-content: space-around;
-        }
-
-        .right-content a {
-            display: flex;
-            width: 100%;
-            padding: 0 20px;
-            text-align: center;
-            justify-content: center;
-            margin-left: 0;
-            margin-top: 5px; /* Отступ между ссылками на мобильных устройствах */
-        }
-        .navigation-list{
-            flex-direction: column;
-        }
-
-        .hollow-circle {
-        border: 2px solid #304252;
-        height: 90px;
-        top: 61%;
-        left: 43%;
-        }
-    
-    }
-    
-
-    @media screen and (max-width: 30em){ /* mobile < 480px */
-        .hollow-circle {
-        border: 1.5px solid #304252;
-        left: 42%;   
-    }
-
-    .zxcv {
-        padding-top: 0;
-        font-size: 0.8rem;
-        padding: 0 1rem 0 1rem;
-    }
-
-}
-
-@media screen and (max-width: 1024px) {
-
-    .work {
-        font-size: 6rem;
-    }
-
-    .dopclass {
-        text-align: left;
-        padding: 0;
-    }
-
-    .ttt {
-        text-align: left;
-    }
-
-    .introduction {
-        padding-top: 70px;
-    }
-
-}
-    @media screen and (max-width: 425px) {
-        .hollow-circle {
-            left: 45%;
-        }
-    }
-
-</style>
-
-
-
-
-<script>
-
-
-
-    document.addEventListener("DOMContentLoaded", function() {
-    var myDiv = document.getElementById("myDiv");
-    myDiv.addEventListener("click", function() {
-        window.location.href = "mailto:hireme@arayabzhali.com";
-    });
-    });
-
-    document.addEventListener("DOMContentLoaded", function() {
-    var myDiv = document.getElementById("myLogo");
-    myDiv.addEventListener("click", function() {
-        window.location.href = "index.html";
-    });
-    });
-
-    document.addEventListener("DOMContentLoaded", function() {
-    var myDiv = document.getElementById("cocoon");
-    myDiv.addEventListener("click", function() {
-        window.location.href = "cocoon.html";
-    });
-    });
-
-    document.addEventListener("DOMContentLoaded", function() {
-    var myDiv = document.getElementById("vogue");
-    myDiv.addEventListener("click", function() {
-        window.location.href = "vogue.html";
-    });
-    });
-
-    document.addEventListener("DOMContentLoaded", function() {
-    var myDiv = document.getElementById("ivy");
-    myDiv.addEventListener("click", function() {
-        window.location.href = "ivy.html";
-    });
-    });
-
-    const burger = document.querySelector(".burger");
-    const navMenu = document.querySelector(".navigation");
-
-    burger.addEventListener("click", () => {
-        burger.classList.toggle("active");
-        navMenu.classList.toggle("active");
-    })
-
-
-</script>
-
-
-<!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> -->
+    <!--footer-->
+    <footer class="footer">
+        <div class="social-media-links">
+                <p>CONNECT WITH ME</p>
+            <div class="right-content">
+                <a href="https://www.instagram.com/lxsrtx/?hl=en">INSTAGRAM</a>
+                <a href="https://www.linkedin.com/in/aray-abzhali-072629291/?originalSubdomain=ca">LINKEDIN</a>
+                <a href="https://www.behance.net/arayabzhali">BEHANCE</a>
+            </div>
+        </div>
+        <p>All rights preserved. Website is fully coded.</p>
+        <p>©2024 ARAY ABZHALI</p>
+    </footer>
 </body>
 </html>
