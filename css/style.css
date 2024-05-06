@@ -1135,7 +1135,7 @@ nav ul li a:hover {
     }
 
     .intro-text {
-        padding: 0.7rem 5rem 0 5rem;
+        padding: 0.7rem 2rem 0 2rem;
     }
 
     .intro-text h1 {
@@ -1148,13 +1148,17 @@ nav ul li a:hover {
         line-height: 1rem;
     }
 
+    .intro-description {
+        padding: 0 2rem;
+    }
+
     .card img {
-        width: 34rem;
+        width: 36rem;
         height: 26rem;
     }
 
     .card_overlay {
-        width: 34rem;
+        width: 36rem;
         height: 26rem;
     }
 
