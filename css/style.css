@@ -327,7 +327,7 @@ nav ul li a:hover {
     justify-content: space-between;
     text-transform: uppercase;
     align-items: baseline;
-    padding: 2rem 6rem 2rem 6rem;
+    padding: 2rem 4rem 2rem 4rem;
     color: #ffffff;
 }
 
@@ -911,13 +911,13 @@ nav ul li a:hover {
     }
 
     .card img {
-        width: 52rem;
-        height: 35rem;
+        width: 46rem;
+        height: 32rem;
     }
 
     .card_overlay {
-        width: 52rem;
-        height: 35rem;
+        width: 46rem;
+        height: 32rem;
     }
 
     .more_projects {
@@ -949,6 +949,11 @@ nav ul li a:hover {
 
     .about-image img {
         width: 350px;
+    }
+
+    .card_title {
+        font-size: 7rem;
+        left: 8%;
     }
 
     .text-wrapper h2 {
