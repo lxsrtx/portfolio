@@ -1305,15 +1305,25 @@ nav ul li a:hover {
     }
 
     .card_title {
-        left: -8%;
-        font-size: 5rem;
+        left: -9%;
+        font-size: 5.5rem;
     }
 
     .social-media-links {
         padding: 1rem 2.8rem 2rem 2.8rem;
     }
+
+    .process-explanation {
+        top: 64%;
+    }
 }
 
 @media screen and (max-width: 30em){ /* mobile < 480px */
+    .intro-2line {
+        padding-left: 0rem;
+    }
 
+    .intro-description {
+        flex-direction: column-reverse;
+    }
 }
