@@ -1341,17 +1341,29 @@ nav ul li a:hover {
     }
 
     .card img {
-        width: 24rem;
+        width: 21rem;
         height: 18rem;
     }
 
     .card_overlay {
-        width: 24rem;
+        width: 21rem;
         height: 18rem;
     }
 
-    .card_bodyy {
+    .card-text {
         justify-content: space-between;
     }
 
+    .card_title {
+        font-size: 4.5rem;
+    }
+
+    .card-text p {
+        font-size: 0.8rem;
+    }
+
+    .more_projects a {
+        width: 130px;
+        height: 130px;
+    }
 }
