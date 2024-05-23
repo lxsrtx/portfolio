@@ -1485,7 +1485,7 @@ nav ul li a:hover {
     }
 
     .project-hero-container {
-        padding: 10rem 2rem 1rem 2rem;
+        padding: 8rem 2rem 1rem 2rem;
     }
 
     .project-title {
@@ -1500,6 +1500,7 @@ nav ul li a:hover {
 
     .project-img-card img {
         width: 22.5rem;
+        height: 24rem;
     }
 
     .project-description {
@@ -1516,6 +1517,10 @@ nav ul li a:hover {
 
     .intro-text {
         padding: 0.7rem 0rem 2rem 0rem;
+    }
+
+    .project-description {
+        padding-top: 1rem;
     }
 }
 
