@@ -1529,6 +1529,22 @@ nav ul li a:hover {
 
     .project-overview {
         flex-direction: column;
+        padding-bottom: 2rem;
+    }
+
+    .section-2 h1 {
+        padding-left: 2rem;
+        padding-top: 0;
+    }
+
+    .project-overview h2 {
+        padding-left: 2rem;
+    }
+
+    .project-overview p {
+        padding: 1rem 2rem;
+        font-size: 1.2rem;
+        width: 100%;
     }
 }
 
