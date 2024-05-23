@@ -1513,5 +1513,9 @@ nav ul li a:hover {
     .card {
         margin: 2rem 0rem 0 0rem;
     }
+
+    .intro-text {
+        padding: 0.7rem 0rem 2rem 0rem;
+    }
 }
 
