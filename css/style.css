@@ -1388,11 +1388,16 @@ nav ul li a:hover {
     }
 
     .right-content a {
-        margin: 0rem 2rem;
+        margin: 0rem 1.5rem;
+    }
+
+    .right-content {
+        margin-top: 0.5rem;
     }
 
     footer p {
         font-size: 0.8rem;
+        padding-top: 0.5rem;
     }
 
 }
