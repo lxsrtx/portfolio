@@ -1404,6 +1404,8 @@ nav ul li a:hover {
     .about-me {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr;
+        justify-content: center; /* centers items horizontally */
+        align-items: center;
     }
 
     .about-image {
@@ -1422,8 +1424,8 @@ nav ul li a:hover {
     }
 
     .hollow-circle {
-        top: 38%;
-        right: 0rem;
+        top: 34%;
+        right: 2rem;
     }
 
     .text-wrapper {
