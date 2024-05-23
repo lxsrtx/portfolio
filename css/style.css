@@ -1424,7 +1424,7 @@ nav ul li a:hover {
     }
 
     .hollow-circle {
-        top: 34%;
+        top: 30%;
         right: 2rem;
     }
 
@@ -1440,5 +1440,6 @@ nav ul li a:hover {
 
     .about-image {
         padding: 2rem 0;
+        align-self: center;
     }
 }
