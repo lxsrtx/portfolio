@@ -1405,4 +1405,11 @@ nav ul li a:hover {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
     }
+
+    .about-image {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
 }
