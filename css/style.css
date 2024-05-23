@@ -1403,7 +1403,7 @@ nav ul li a:hover {
 
     .about-me {
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
     }
 
     .about-image {
