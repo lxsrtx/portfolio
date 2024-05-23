@@ -1412,4 +1412,32 @@ nav ul li a:hover {
         grid-row-start: 3;
         grid-row-end: 4;
     }
+
+    .about-me {
+        padding-top: 8rem;
+    }
+
+    .scroll-container {
+        margin-top: 4rem;
+    }
+
+    .hollow-circle {
+        top: 38%;
+        right: 0rem;
+    }
+
+    .text-wrapper {
+        padding: 0;
+    }
+
+    .about-me-desc {
+        padding: 16rem 2rem 0rem 2rem;
+        font-size: 0.9rem;
+        text-align: center;
+    }
+
+    .about-image {
+        padding: auto;
+        padding-top: 2rem;
+    }
 }
