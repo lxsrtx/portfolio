@@ -1341,17 +1341,18 @@ nav ul li a:hover {
     }
 
     .card img {
-        width: 21rem;
+        width: 23rem;
         height: 18rem;
     }
 
     .card_overlay {
-        width: 21rem;
+        width: 23rem;
         height: 18rem;
     }
 
     .card-text {
         justify-content: space-between;
+        padding-top: 0.5rem;
     }
 
     .card_title {
@@ -1360,10 +1361,34 @@ nav ul li a:hover {
 
     .card-text p {
         font-size: 0.8rem;
+        line-height: 1rem;
+        letter-spacing: 0px;
     }
 
     .more_projects a {
         width: 130px;
         height: 130px;
+    }
+
+    .gradient-bg {
+        width: 24rem;
+        height: 26rem;
+    }
+
+    .gradient-bg h2 {
+        font-size: 1.6rem;
+    }
+
+    .send_msg {
+        width: 150px;
+        height: 150px;
+    }
+
+    .social-media-links {
+        font-size: 0.7rem;
+    }
+
+    .footer p {
+        font-size: 0.5rem;
     }
 }
