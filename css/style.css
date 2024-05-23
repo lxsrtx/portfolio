@@ -1439,7 +1439,6 @@ nav ul li a:hover {
     }
 
     .about-image {
-        padding: auto;
-        padding-top: 2rem;
+        padding: 2rem 0;
     }
 }
