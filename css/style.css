@@ -1482,6 +1482,9 @@ nav ul li a:hover {
     .project-hero-container {
         display: flex;
         flex-direction: column;
-        
+    }
+
+    .process-explanation {
+        top: auto;
     }
 }
