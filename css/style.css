@@ -1481,10 +1481,16 @@ nav ul li a:hover {
 
     .project-hero-container {
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 
     .process-explanation {
         top: auto;
+    }
+
+    .project-title {
+        font-size: 5rem;
+        line-height: 5rem;
+        padding: 2rem 0 3rem 0;
     }
 }
