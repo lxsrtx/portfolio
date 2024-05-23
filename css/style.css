@@ -1437,4 +1437,22 @@ nav ul li a:hover {
         padding: 2rem 0;
         align-self: center;
     }
+
+    .scroll-container {
+        margin-top: 10rem;
+    }
+
+    .about-image {
+        padding: 3rem 0;
+    }
+
+    .introduction-text p {
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+    }
+
+    .skills-text p {
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+    }
 }
