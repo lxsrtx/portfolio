@@ -1402,17 +1402,10 @@ nav ul li a:hover {
     }
 
     .about-me {
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
+        flex-direction: column;
+        display: flex;
         justify-content: center; /* centers items horizontally */
         align-items: center;
-    }
-
-    .about-image {
-        grid-column-start: 1;
-        grid-column-end: 3;
-        grid-row-start: 3;
-        grid-row-end: 4;
     }
 
     .about-me {
