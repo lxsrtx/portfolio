@@ -1397,8 +1397,8 @@ nav ul li a:hover {
 
     footer p {
         font-size: 0.8rem;
-        padding-top: 0rem;
-        padding-bottom: 0.5rem;
+        padding-top: 0;
+        padding-bottom: 0;
     }
 
     .about-me {
@@ -1454,6 +1454,11 @@ nav ul li a:hover {
     .skills-text p {
         font-size: 1.2rem;
         line-height: 1.5rem;
+        padding: 1rem 0 1rem 0;
+    }
+
+    .about-me-introduction {
+        padding-bottom: 2rem;
     }
 
     .gradient-bg h2 {
@@ -1472,10 +1477,6 @@ nav ul li a:hover {
     .subhead h3 {
         font-size: 1.8rem;
         padding-top: 2rem;
-    }
-
-    .footer {
-        margin-top: 4.3rem;
     }
 
     .project-hero-container {
@@ -1503,6 +1504,10 @@ nav ul li a:hover {
 
     .project-description {
         color: #000;
+    }
+
+    .skills-text {
+        padding: 3rem 2rem 0 2rem;
     }
 }
 
