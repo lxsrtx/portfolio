@@ -1384,7 +1384,7 @@ nav ul li a:hover {
         align-items: center;
         justify-content: center;
         display: flex;
-        padding: 1rem 2.8rem 2rem 2.8rem;
+        padding: 1rem 2.8rem 1rem 2.8rem;
     }
 
     .right-content a {
@@ -1508,6 +1508,10 @@ nav ul li a:hover {
 
     .skills-text {
         padding: 3rem 2rem 0 2rem;
+    }
+
+    .card {
+        margin: 2rem 0rem 0 0rem;
     }
 }
 
