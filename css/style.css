@@ -1326,4 +1326,32 @@ nav ul li a:hover {
     .intro-description {
         flex-direction: column-reverse;
     }
+
+    .intro-description p {
+        padding: 0rem 2rem 3rem 2rem;
+        text-align: center;
+    }
+
+    .intro-text h1 {
+        font-size: 3.5rem;
+    }
+
+    .intro-text {
+        padding: 0.7rem 2rem 2rem 2rem;
+    }
+
+    .card img {
+        width: 24rem;
+        height: 18rem;
+    }
+
+    .card_overlay {
+        width: 24rem;
+        height: 18rem;
+    }
+
+    .card_bodyy {
+        justify-content: space-between;
+    }
+
 }
