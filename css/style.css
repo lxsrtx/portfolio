@@ -1423,7 +1423,8 @@ nav ul li a:hover {
     }
 
     .text-wrapper {
-        margin-top: 22rem;
+        padding: 0;
+        margin-top: 14rem;
     }
 
     .about-me-desc {
