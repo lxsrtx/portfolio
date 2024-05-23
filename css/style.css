@@ -1493,4 +1493,17 @@ nav ul li a:hover {
         line-height: 5rem;
         padding: 2rem 0 3rem 0;
     }
+
+    .right-side {
+        padding-left: 0;
+    }
+
+    .project-img-card img {
+        width: 24rem;
+    }
+
+    .project-description {
+        color: #000;
+    }
 }
+
