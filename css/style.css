@@ -1417,12 +1417,12 @@ nav ul li a:hover {
     }
 
     .hollow-circle {
-        top: 30%;
-        right: 2rem;
+        top: 60%;
+        right: -1.2rem;
     }
 
     .text-wrapper {
-        padding: 0;
+        margin-top: 22rem;
     }
 
     .about-me-desc {
