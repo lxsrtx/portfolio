@@ -1341,13 +1341,13 @@ nav ul li a:hover {
     }
 
     .card img {
-        width: 23rem;
-        height: 18rem;
+        width: 21rem;
+        height: 17rem;
     }
 
     .card_overlay {
-        width: 23rem;
-        height: 18rem;
+        width: 21rem;
+        height: 17rem;
     }
 
     .card-text {
@@ -1356,7 +1356,7 @@ nav ul li a:hover {
     }
 
     .card_title {
-        font-size: 4.5rem;
+        font-size: 4rem;
     }
 
     .card-text p {
@@ -1389,7 +1389,7 @@ nav ul li a:hover {
     }
 
     .right-content a {
-        margin: 0rem 1rem;
+        margin: 0rem 0.5rem;
     }
 
     .right-content {
