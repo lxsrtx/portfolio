@@ -1489,7 +1489,7 @@ nav ul li a:hover {
     }
 
     .project-title {
-        font-size: 5rem;
+        font-size: 4rem;
         line-height: 5rem;
         padding: 2rem 0 3rem 0;
     }
@@ -1522,5 +1522,14 @@ nav ul li a:hover {
     .project-description {
         padding-top: 1rem;
     }
+
+    .section-2 {
+        padding-top: 3rem;
+    }
+
+    .project-overview {
+        flex-direction: column;
+    }
 }
+
 
