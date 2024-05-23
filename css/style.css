@@ -1379,16 +1379,19 @@ nav ul li a:hover {
         font-size: 1.6rem;
     }
 
-    .send_msg {
-        width: 150px;
-        height: 150px;
-    }
-
     .social-media-links {
         font-size: 0.7rem;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        display: flex;
     }
 
     .footer p {
-        font-size: 0.5rem;
+        font-size: 0.7rem;
+    }
+
+    .right-content {
+        justify-content: space-around;
     }
 }
