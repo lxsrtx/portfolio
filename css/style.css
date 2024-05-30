@@ -1605,6 +1605,14 @@ nav ul li a:hover {
     .project-title {
         display: none;
     }
+
+    .card_overlay > *{
+        transform: translateY(0px);
+    }
+
+    .card img {
+        margin: 0;
+    }
 }
 
 
