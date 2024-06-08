@@ -1615,5 +1615,83 @@ nav ul li a:hover {
     }
 }
 
+@media screen and (max-width: 320px){
+    .intro-text h1 {
+        font-size: 2.5rem;
+    }
+
+    .intro-description p {
+        padding: 0rem 1rem 3rem 1rem;
+    }
+
+    .card img {
+        width: 17rem;
+        height: 13rem;
+    }
+
+    .card_overlay {
+        width: 17rem;
+        height: 13rem;
+    }
+
+    .card-text p {
+        padding: 0.5rem;
+        font-size: 0.7rem;
+    }
+
+    .card_title {
+        font-size: 3rem;
+        left: -6%;
+    }
+
+    .gradient-bg {
+        width: 18rem;
+        height: 24rem;
+    }
+
+    .gradient-bg h2 {
+        padding: 1rem 0 2rem 0;
+    }
+
+    .social-media-links {
+        font-size: 0.8rem;
+        padding: 1rem 2rem 1rem 2rem;
+    }
+
+    .right-content a {
+        margin: 0.2rem;
+    }
+    
+    .footer p {
+        text-align: center;
+        padding-top: 0.5rem;
+    }
+
+    .intro-description {
+        padding: 0rem;
+    }
+
+    .project-img-card img {
+        width: 18rem;
+        height: 18rem;
+    }
+
+    .project-hero-container {
+        padding: 8rem 1rem 1rem 1rem;
+    }
+
+    .section-2 {
+        padding-right: 0rem;
+    }
+
+    .section-2 h1 {
+        padding-bottom: 3rem;
+    }
+
+    .white-bg {
+        padding: 1.5rem 2rem;
+    }
+}
+
 
 
