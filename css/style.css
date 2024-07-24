@@ -1616,6 +1616,37 @@ nav ul li a:hover {
 }
 
 @media screen and (max-width: 320px){
+    .card_title {
+        left: -5%;
+    }
+
+    .card {
+        margin: 2rem 5rem 0 5rem;
+    }
+
+    .gradient-bg {
+        width: 21rem;
+        margin-bottom: 2rem;
+    }
+
+    .social-media-links {
+        font-size: 0.9rem;
+    }
+
+    .intro-text h1 {
+        font-size: 3rem;
+    }
+
+    .contact-info {
+        padding: 10rem 2.5rem 1rem 2rem;
+    }
+
+    .footer {
+        margin-top: 5.5rem;
+    }
+}
+
+@media screen and (max-width: 320px){
     .intro-text h1 {
         font-size: 2.5rem;
     }
@@ -1690,6 +1721,50 @@ nav ul li a:hover {
 
     .white-bg {
         padding: 1.5rem 2rem;
+    }
+
+    .section-4 {
+        padding-top: 0rem;
+    }
+
+    .next-project-card {
+        width: 16rem;
+        height: 28rem;
+    }
+
+    .next-project-card {
+        margin-top: 2rem;
+    }
+
+    .next-project-card h2 {
+        font-size: 3rem;
+    }
+
+    .next-project-card button {
+        margin-top: 3rem;
+    }
+
+    .scroll-text {
+        font-size: 4rem;
+    }
+
+    .hollow-circle {
+        top: 59%;
+        right: -0.1rem;
+        height: 80px;
+        width: 170px;
+    }
+
+    .text-wrapper h2 {
+        font-size: 3.5rem;
+    }
+
+    .apps img {
+        width: 60px;
+    }
+
+    .gradient-bg h2 {
+        font-size: 1.4rem;
     }
 }
 
