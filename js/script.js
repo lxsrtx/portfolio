@@ -54,6 +54,13 @@ document.addEventListener("DOMContentLoaded", function() {
     });
     });
 
+    document.addEventListener("DOMContentLoaded", function() {
+        var myDiv = document.getElementById("ozge");
+        myDiv.addEventListener("click", function() {
+            window.location.href = "ozge.html";
+    });
+    });
+
     const burger = document.querySelector(".burger");
     const navMenu = document.querySelector(".expand");
 
