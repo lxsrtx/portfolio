@@ -851,6 +851,10 @@ nav ul li a:hover {
     background: url(../img/steppe-next-project.WEBP) center center / cover no-repeat;
 }
 
+.nomadica {
+    background: url(../img/nomadica-next-page.jpg) center center / cover no-repeat;
+}
+
 .next-project-card button {
     text-transform: uppercase;
     font-weight: 600;
