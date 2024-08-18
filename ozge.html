@@ -153,7 +153,7 @@
             <img src="img/ozge-mockup-blue.jpg" class="card-img-top" alt="">
             <img src="img/ozge-website-mockup-min.jpg" class="card-img-top" alt="">
             <video width="202.8%" autoplay loop muted><source src="img/ozge-web.mp4" class="card-img-top" type="video/mp4"></video>  
-            <img src="img/ozge-mobile-mockup.jpg" width="114%" class="card-img-column" alt="">
+            <img width="114%" src="img/ozge-mobile-mockup.jpg" class="card-img-column" alt="">
             <video class="app" width="35%" autoplay loop muted><source src="img/ozge-mobile.mp4" class="card-img-columns app" type="video/mp4"></video>
         </div>
     </div>
@@ -162,7 +162,7 @@
         <div class="next-project-card cocoon">
             <h1>Next Project</h1>
             <h2>Cocoon</h2>
-            <button id="cocoon">View Project</button>
+            <button id="dime">View Project</button>
         </div>
     </div>
     <footer class="footer">
@@ -195,14 +195,29 @@
             color: #000000;
         }
 
-        .project-title {
-            color: #585447;
+        .project-title h1{
+            color: #4a373d;
         }
 
         .app {
             margin-left: auto;
             margin-right: auto;
         }
+
+        @media screen and (max-width: 64em){ /* small laptop < 1024px */
+        .gallery .font {
+        width: 100%;
+        grid-row-start: 2;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        }
+    }
+    @media screen and (max-width: 30em){ /* mobile < 480px */
+        .app {
+            width: 100%;
+        }
+    }
+
     </style>
 </body>
 </html>
