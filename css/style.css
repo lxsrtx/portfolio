@@ -848,7 +848,7 @@ nav ul li a:hover {
 }
 
 .steppe {
-    background: url(../img/steppe-next-proj.jpg) center bottom / cover no-repeat;
+    background: url(../img/steppe-next-proj.jpg) center center / cover no-repeat;
 }
 
 .next-project-card button {
