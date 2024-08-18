@@ -47,6 +47,13 @@ document.addEventListener("DOMContentLoaded", function() {
     });
     });
 
+    document.addEventListener("DOMContentLoaded", function() {
+        var myDiv = document.getElementById("nomadica");
+        myDiv.addEventListener("click", function() {
+            window.location.href = "nomadica.html";
+    });
+    });
+
     const burger = document.querySelector(".burger");
     const navMenu = document.querySelector(".expand");
 
