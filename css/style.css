@@ -847,6 +847,10 @@ nav ul li a:hover {
     background: url(../img/fgh.jpg) center bottom / cover no-repeat;
 }
 
+.steppe {
+    background: url(../img/steppe-next-project.jpg) center bottom / cover no-repeat;
+}
+
 .next-project-card button {
     text-transform: uppercase;
     font-weight: 600;
