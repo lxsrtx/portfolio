@@ -40,6 +40,13 @@ document.addEventListener("DOMContentLoaded", function() {
     });
     });
 
+    document.addEventListener("DOMContentLoaded", function() {
+        var myDiv = document.getElementById("steppe");
+        myDiv.addEventListener("click", function() {
+            window.location.href = "steppe.html";
+    });
+    });
+
     const burger = document.querySelector(".burger");
     const navMenu = document.querySelector(".expand");
 
