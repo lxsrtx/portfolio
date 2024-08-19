@@ -1825,6 +1825,47 @@ nav ul li a:hover {
         flex-direction: column;
         row-gap: 2rem;
     }
+
+    .hollow-circle {
+        width: 240px;
+        right: 2rem;
+    }
+
+    .introduction-text p {
+        font-size: 1rem;
+    }
+    
+    .introduction-text h1 {
+        font-size: 1.2rem;
+    }
+
+    .skills-text p {
+        font-size: 1rem;
+    }
+
+    .skills-text h1 {
+        font-size: 1.2rem;
+    }
+
+    .contact-info h1 {
+        font-size: 1.6rem;
+    }
+
+    .subhead h3 {
+        font-size: 1.5rem;
+    }
+
+    .subhead h5 {
+        font-size: 1rem;
+    }
+
+    .contact-info {
+        padding: 8rem 2rem 1rem 2rem;
+    }
+
+    .footer {
+        margin-top: 10.5rem;
+    }  
 }
 
 
