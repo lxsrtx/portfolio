@@ -1785,7 +1785,7 @@ nav ul li a:hover {
 
     .result-gallery {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
     }
 }
 
