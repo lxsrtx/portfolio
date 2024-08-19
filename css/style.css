@@ -1363,10 +1363,6 @@ nav ul li a:hover {
         padding-top: 0.5rem;
     }
 
-    .card_title {
-        font-size: 4rem;
-    }
-
     .card-text p {
         font-size: 0.8rem;
         line-height: 1rem;
@@ -1376,6 +1372,10 @@ nav ul li a:hover {
     .more_projects a {
         width: 130px;
         height: 130px;
+    }
+
+    .card_title {
+        font-size: 3.3rem;
     }
 
     .gradient-bg {
