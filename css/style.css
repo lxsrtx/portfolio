@@ -141,6 +141,7 @@ nav ul li a:hover {
 }
 
 .card img {
+    object-fit: cover;
     width: 65rem;
     height: 40rem;
     display: block;
