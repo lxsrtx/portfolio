@@ -852,11 +852,11 @@ nav ul li a:hover {
 }
 
 .nomadica {
-    background: url(../img/nomadica-next-page.jpg) center center / cover no-repeat;
+    background: url(../img/nomadica-next-proj.jpg) center center / cover no-repeat;
 }
 
 .ozge {
-    background: url(../img/ozge-guidelines-mockup.jpg) center center / cover no-repeat;
+    background: url(../img/ozge-mockup-hands.jpg) center center / cover no-repeat;
 }
 
 .next-project-card button {
@@ -1727,8 +1727,32 @@ nav ul li a:hover {
         padding: 8rem 1rem 1rem 1rem;
     }
 
+    .section-1 h1 {
+        font-size: 0.8rem;
+    }
+
     .section-2 {
         padding-right: 0rem;
+    }
+
+    .heading {
+        font-size: 1.5rem;
+    }
+
+    .project-overview p {
+        font-size: 1rem;
+    }
+
+    .section-4 p {
+        font-size: 1rem;
+    }
+
+    .project-overview h2 {
+        font-size: 1.2rem;
+    }
+
+    .group h1 {
+        font-size: 1.2rem;
     }
 
     .section-2 h1 {
@@ -1786,6 +1810,19 @@ nav ul li a:hover {
     .result-gallery {
         display: flex;
         flex-direction: column;
+    }
+
+    .app {
+        width: 100%;
+    }
+
+    .poster-gallery img {
+        width: 100%;
+    }
+
+    .poster-gallery {
+        flex-direction: column;
+        row-gap: 2rem;
     }
 }
 
