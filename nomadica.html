@@ -184,14 +184,6 @@
 
     <style>
 
-        .next-project-card h2 {
-            color: black;
-        }
-
-        .next-project-card h1 {
-            color: black;
-        }
-
         .poster-gallery {
             display: flex;
             column-gap: 1rem;
@@ -226,6 +218,12 @@
             flex-direction: row;
         }
     }
+
+    @media screen and (max-width: 320px) {
+    .poster-gallery {
+        flex-direction: column;
+    }
+}
 
     </style>
 </body>
