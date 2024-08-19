@@ -1783,9 +1783,9 @@ nav ul li a:hover {
         font-size: 1.4rem;
     }
 
-    .card-image-column {
-        grid-column-start: 1;
-        grid-column-end: 3;
+    .result-gallery {
+        display: flex;
+        flex-direction: row;
     }
 }
 
