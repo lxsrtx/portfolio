@@ -1710,6 +1710,10 @@ nav ul li a:hover {
         padding-top: 0.5rem;
     }
 
+    .footer {
+        margin-top: 0;
+    }
+
     .intro-description {
         padding: 0rem;
     }
@@ -1777,6 +1781,11 @@ nav ul li a:hover {
 
     .gradient-bg h2 {
         font-size: 1.4rem;
+    }
+
+    .card-image-column {
+        grid-column-start: 1;
+        grid-column-end: 3;
     }
 }
 
